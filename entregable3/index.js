@@ -29,7 +29,7 @@ app.get('/productoRandom', (req,res) => {
     .catch((error) => res.send(error))
 })
 
-app.get('*', (req,res) => res.send('404'))
+app.get("*", (req, res) => res.send(" <b>Available endpoints:</b> /productos or /productoRandom"));
 
 const server = app.listen(PORT,() => {
     console.log(PORT)
