@@ -15,13 +15,13 @@ async function product_array() {
 let Productos = new Contenedor("productos");
 
 app.get('/productos', (req,res) => {
-    const result = product_array()
+    product_array()
     .then((data) => res.send(data))
     .catch((error) => res.send(error));
 })
 
 app.get('/productoRandom', (req,res) => {
-    const items = product_array()
+    product_array()
     .then((data) => {
         const random = data[Math.floor(Math.random()*data.length)];
         res.send(random);
