@@ -34,17 +34,17 @@ class Contenedor{
 
     update(number, data) {
         
-        const objectIndex = this.productos.findIndex((obj) => obj.id === number)
+        const objectIndex = this.productos.findIndex((obj) => obj.id == number)
         if (objectIndex === -1) {
           throw new Error("Producto no encontrado");
         }
         this.productos[objectIndex] = data;
         this.productos[objectIndex].id = number;
-        return this.productos[objectIndex];
+        return "Producto actualizado";
     }
 
     deleteById(number) {
-        const objectIndex = this.productos.findIndex((obj) => obj.id === number)
+        const objectIndex = this.productos.findIndex((obj) => obj.id == number)
         if (objectIndex === -1) {
           throw new Error("Producto no encontrado");
         }

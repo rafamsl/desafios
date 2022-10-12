@@ -4,6 +4,11 @@ const router = express.Router();
 
 let Productos = new Contenedor();
 
+const producto_1 = { "title": "Escuadra",
+"price": 125.45,
+"thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png"};
+
+Productos.save(producto_1);
 router.get('/', (req, res) => {
     const productos = Productos.getAll();
     res.send({ productos });
@@ -33,14 +38,22 @@ router.post('/', (req, res) => {
 router.put('/:id', (req,res) => {
     const id = req.params.id;
     const producto = req.body;
-    const output = Productos.update(id,producto);
-    res.status(200).send(output);
+    try {
+        const output = Productos.update(id,producto);
+        res.status(200).send(output);
+    } catch (Error) {
+        res.status(400).send(Error.message);
+    }
 })
 
 router.delete('/:id', (req,res) => {
     const id = req.params.id;
-    const output = Productos.deleteById(id);
-    res.send(output);
+    try {
+        const output = Productos.deleteById(id);
+        res.send(output);
+    } catch(Error) {
+        res.status(400).send(Error.message);
+    }
 })
 
 module.exports = router;
