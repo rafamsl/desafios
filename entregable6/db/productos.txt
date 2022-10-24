@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Escuadra",
+    "price": "123",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+    "id": 1
+  },
+  {
+    "title": "Globo",
+    "price": "134",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+    "id": 2
+  },
+  {
+    "title": "Calculadora",
+    "price": "132",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-256.png",
+    "id": 3
+  },
+  {
+    "title": "Camisa",
+    "price": "123",
+    "thumbnail": "www.globo.com",
+    "id": 4
+  },
+  {
+    "title": "Camisa",
+    "price": "124",
+    "thumbnail": "www.globo.com/124",
+    "id": 5
+  },
+  {
+    "title": "Terra",
+    "price": "124",
+    "thumbnail": "www.google.com",
+    "id": 6
+  },
+  {
+    "title": "Mouse",
+    "price": "190",
+    "thumbnail": "www.mouse.com",
+    "id": 7
+  },
+  {
+    "title": "Teclado",
+    "price": "109",
+    "thumbnail": "www.teclado.com",
+    "id": 8
+  },
+  {
+    "title": "Celular",
+    "price": "199",
+    "thumbnail": "www.celular.com",
+    "id": 9
+  },
+  {
+    "title": "Botella",
+    "price": "123",
+    "thumbnail": "www.botella.com",
+    "id": 10
+  }
+]

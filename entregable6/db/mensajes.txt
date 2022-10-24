@@ -1,0 +1,50 @@
+[
+  {
+    "msg": "Hola",
+    "socketId": "kkbf53dGV1ynAoHTAAAA",
+    "createdAt": "24/10/2022 06:07:19 hs",
+    "id": 1
+  },
+  {
+    "msg": "Que tal?",
+    "socketId": "kkbf53dGV1ynAoHTAAAA",
+    "createdAt": "24/10/2022 06:07:25 hs",
+    "id": 2
+  },
+  {
+    "msg": "Como va?",
+    "socketId": "43gZd_Lnwk5UA1MHAAAA",
+    "createdAt": "24/10/2022 06:08:31 hs",
+    "id": 3
+  },
+  {
+    "msg": "hola",
+    "socketId": "EHp-cIuZZp7o-csUAAAA",
+    "createdAt": "24/10/2022 06:22:04 hs",
+    "id": 4
+  },
+  {
+    "msg": "que tal?",
+    "socketId": "SetbxWdOz3NTTHrRAAAB",
+    "createdAt": "24/10/2022 06:22:17 hs",
+    "id": 5
+  },
+  {
+    "msg": "todo bien?",
+    "socketId": "SetbxWdOz3NTTHrRAAAB",
+    "createdAt": "24/10/2022 06:23:02 hs",
+    "id": 6
+  },
+  {
+    "msg": "todo bien?",
+    "socketId": "j8qVaVJR0XEnGEZzAAAA",
+    "createdAt": "24/10/2022 06:23:15 hs",
+    "id": 7
+  },
+  {
+    "msg": "como va?",
+    "socketId": "j8qVaVJR0XEnGEZzAAAA",
+    "createdAt": "24/10/2022 06:23:21 hs",
+    "id": 8
+  }
+]

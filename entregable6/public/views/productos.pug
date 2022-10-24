@@ -1,0 +1,14 @@
+if !productos.length
+    p="No hay productos"
+else 
+    each val in productos
+        div(class="card mb-3")
+            div(class="row g-0")
+                div(class="col-md-4")
+                    img(src=val.thumbnail, class="img-fluid rounderd-start")
+                div(class="col-md-8")
+                    div(class="card-body")
+                        h5(class="card-title")= val.title
+                        p(class="card-text")='Total price = $' + val.price
+                        //- form(action=`/api/productos/${val.id}` method="DELETE")
+                        //-     input(class="btn btn-danger" type="submit" value="Borrar Producto")
