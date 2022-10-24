@@ -18,45 +18,9 @@
     "id": 3
   },
   {
-    "title": "Camisa",
-    "price": "123",
-    "thumbnail": "www.globo.com",
-    "id": 4
-  },
-  {
-    "title": "Camisa",
-    "price": "124",
-    "thumbnail": "www.globo.com/124",
-    "id": 5
-  },
-  {
-    "title": "Terra",
-    "price": "124",
-    "thumbnail": "www.google.com",
-    "id": 6
-  },
-  {
-    "title": "Mouse",
-    "price": "190",
-    "thumbnail": "www.mouse.com",
-    "id": 7
-  },
-  {
-    "title": "Teclado",
-    "price": "109",
-    "thumbnail": "www.teclado.com",
-    "id": 8
-  },
-  {
-    "title": "Celular",
-    "price": "199",
-    "thumbnail": "www.celular.com",
-    "id": 9
-  },
-  {
     "title": "Botella",
-    "price": "123",
-    "thumbnail": "www.botella.com",
-    "id": 10
+    "price": "9,99",
+    "thumbnail": "https://cdn0.iconfinder.com/data/icons/summer-season-9/32/summer_water-1024.png",
+    "id": 5
   }
 ]

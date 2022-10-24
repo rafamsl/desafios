@@ -2,7 +2,8 @@ const socket = io.connect();
 
 let users = []
 let messages = []
-const lista = document.getElementById("productos")
+let products = []
+const productSection = document.getElementById("productos")
 const createProductForm = document.getElementById('createProduct_form')
 const aliasForm = document.getElementById('alias_form')
 const textMsgForm = document.getElementById('textMsg_form')
@@ -80,7 +81,7 @@ socket.on('all users', allUser => {
 
 // productos
 const cleanProducts = () => {
-	lista.innerHTML = ""
+	productSection.innerHTML = ""
 }
 createProductForm.addEventListener('submit', (e) => {
 	e.preventDefault()
@@ -88,19 +89,19 @@ createProductForm.addEventListener('submit', (e) => {
 	const formValues = Object.fromEntries(formData)
 	createProductForm.reset()
 	socket.emit('new product', formValues)
-	})
-socket.on('all products', function(productos) {
-	cleanProducts()
-	const renderProducts = async (productos) => {
-		let response = await fetch('/views/productos.pug')
-		const template = await response.text()
-		const templateCompiled = pug.compile(template)
-		const html = templateCompiled({ products })
-  		productSection.innerHTML = html
-	}
-	renderProducts()
-	const html = productos.map((elem) => {
-		return elem.title + ' ' + elem.price + ' ' + elem.thumbnail + '<br>'
-	}).join(' ')
-	lista.innerHTML = html 
 })
+
+const renderProducts = async (products) => {
+let response = await fetch('/assets/templates/products.template.handlebars')
+const template = await response.text()
+const templateCompiled = Handlebars.compile(template)
+const html = templateCompiled({ products })
+productSection.innerHTML = html
+}
+
+socket.on('all products', allProduct => {
+		products = allProduct
+		cleanProducts()
+		renderProducts(allProduct)
+	})
+

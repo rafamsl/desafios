@@ -24,9 +24,8 @@ app.use('/', routerProductos);
 
 
 app.set('views', './public/views');
-app.set('view engine', 'pug');
-app.use('/', routerProductos);
-app.get("*", (req, res) => res.send(`Ops 404...`));
+// app.set('view engine', 'pug');
+app.use('/api', routerProductos);
 
 
 io.on('connection', clienteNuevo => {
@@ -34,7 +33,6 @@ io.on('connection', clienteNuevo => {
 	userConnected(clienteNuevo, io)
 	
 	clienteNuevo.on('new product', newProd => {
-		console.log("recibi nuevo producto")
 		newProduct(clienteNuevo, io, newProd)
 	})
 

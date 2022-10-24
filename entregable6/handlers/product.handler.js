@@ -1,4 +1,4 @@
-const Productos = require('../model/models.js')
+const {Productos} = require('../model/models.js')
 
 const newProduct = async (socket, io, newProduct) => {
     await Productos.save(newProduct)

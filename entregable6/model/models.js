@@ -26,8 +26,6 @@ class Contenedor{
     }
     getById(number) {
         const info = this.getAll()
-        console.log(info)
-        console.log(number)
         const object = info.find(obj => obj.id === +number);
         if (object === undefined){
             throw new Error("Producto no encontrado");

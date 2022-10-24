@@ -8,47 +8,47 @@ const router = express.Router();
 // Productos.save(producto_1);
 
 
-router.get('', (req, res) => {
-    console.log(Productos)
-    const productos = Productos.getAll();
-    const page = "productos"
-    res.render('index.pug',{productos, page});
+router.get('/all', async (req, res) => {
+    const productos = await Productos.getAll()
+    res.json({productos})
+    // res.render('index.pug',{productos, page});
 })
 
-router.get('/nuevo', (req, res) => {
-    const productos = Productos.getAll()
-    const page = "formulario"
-    res.render('index.pug',{page})
-})
+// router.get('/nuevo', async (req, res) => {
+//     const productos = await Productos.getAll()
+//     const page = "formulario"
+//     res.render('index.pug',{page})
+// })
 
-router.get('/:id', (req, res) => {
+router.get('/:id', async (req, res) => {
     const id = req.params.id
     try {
-        const productos = [Productos.getById(id)];
-        const page = "productos"
-        res.render('index.pug',{productos, page});
+        const productos = await Productos.getById(id);
+        res.json({productos})
+        // res.render('index.pug',{productos, page});
     } catch (Error) {
         res.status(400).send(Error.message);
     }
 
 })
-router.post('', (req, res) => {
+router.post('', async (req, res) => {
     const { title, price, thumbnail } = req.body;
     try {
-        Productos.save({title, price, thumbnail});
-        console.log("nuevo producto agregado ruta")
+        await Productos.save({title, price, thumbnail});
+        const productos = Productos.getAll();
+        res.json({productos})
     } catch (Error) {
         res.status(400).send(Error.message);
     }
     
 })
 
-router.put('/:id', (req,res) => {
+router.put('/:id', async (req,res) => {
     const id = req.params.id;
     const producto = req.body;
     try {
-        const output = Productos.update(id,producto);
-        res.status(200).send(output);
+        const output = await Productos.update(id,producto);
+        res.status(200).json(output);
     } catch (Error) {
         res.status(400).send(Error.message);
     }
@@ -58,7 +58,9 @@ router.delete('/:id', (req,res) => {
     const id = req.params.id;
     try {
         Productos.deleteById(id);
-        res.redirect('/api/productos');
+        const productos = Productos.getAll()
+        res.json({productos})
+        // res.redirect('/api/productos');
     } catch(Error) {
         res.status(400).send(Error.message);
     }

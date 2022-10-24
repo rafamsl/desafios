@@ -46,5 +46,17 @@
     "socketId": "j8qVaVJR0XEnGEZzAAAA",
     "createdAt": "24/10/2022 06:23:21 hs",
     "id": 8
+  },
+  {
+    "msg": "hola",
+    "socketId": "NAeumchpJhMd_NkbAAAB",
+    "createdAt": "24/10/2022 09:37:19 hs",
+    "id": 9
+  },
+  {
+    "msg": "Buen dia",
+    "socketId": "-AZxAaDGKTZFz5EQAAAD",
+    "createdAt": "24/10/2022 10:01:43 hs",
+    "id": 10
   }
 ]
