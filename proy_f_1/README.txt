@@ -1,5 +1,12 @@
 
-Existing APIs
+Autenticar como admin
+
+- PATH?admin=true
+
+
+APIs existentes
+
+
 
 api/productos
 
