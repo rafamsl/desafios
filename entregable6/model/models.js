@@ -68,8 +68,6 @@ class Contenedor{
 
     update(number, data) {
         const info = this.getAll();
-        console.log(info)
-        console.log(number)
         const objectIndex = info.findIndex((obj) => obj.id == +number);
         if (objectIndex === -1) {
             throw new Error("Producto no encontrado");
