@@ -18,11 +18,6 @@ function admin(req,res,next){
 }
 
 
-
-router.get('/admin', admin, (req,res)=> {
-    res.send(req.admin)
-})
-
 router.get('/', async (req, res) => {
     try {
         const productos = await Productos.getAll();
