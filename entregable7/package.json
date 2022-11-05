@@ -1,0 +1,23 @@
+{
+  "name": "entregable6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "dayjs": "^1.11.6",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "knex": "^2.3.0",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.5.3",
+    "sqlite3": "^5.1.2"
+  }
+}
