@@ -1,0 +1,12 @@
+[
+  {
+    "nombre": "Cuaderno",
+    "descripcion": "Algo para escribir",
+    "precio": 227.67,
+    "codigo": "cuaderno",
+    "foto": "https://www.iconfinder.com/icons/290139/address_book_bookmark_document_education_journal_notebook_reading_icon",
+    "stock": 10,
+    "id": 1,
+    "timestamp": 1667293820661
+  }
+]

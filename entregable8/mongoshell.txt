@@ -1,0 +1,136 @@
+// 1. CREATE DB
+
+use ecommerce
+
+
+// 2. INSERT 
+
+db.mensajes.insertMany([
+  {
+    "msg": "Hola",
+    "socketId": "kkbf53dGV1ynAoHTAAAA"
+  },
+  {
+    "msg": "Soy Rafael",
+    "socketId": "kkbf53dGV1ynAoHTAAAA"
+  },
+  {
+    "msg": "Quiero comprar una casa",
+    "socketId": "kkbf53dGV1ynAoHTAAAA"
+  },
+  {
+    "msg": "Hola",
+    "socketId": "43gZd_Lnwk5UA1MHAAAA"
+  },
+  {
+    "msg": "Soy Emilia",
+    "socketId": "43gZd_Lnwk5UA1MHAAAA"
+  },
+  {
+    "msg": "Que tipo de casa te gustaria?",
+    "socketId": "43gZd_Lnwk5UA1MHAAAA"
+  },
+  {
+    "msg": "2 pisos, balcon y cerca del subte",
+    "socketId": "kkbf53dGV1ynAoHTAAAA"
+  },
+  {
+    "msg": "Muy bien. Tenemos 3 disponibles. Agendemos una visita",
+    "socketId": "43gZd_Lnwk5UA1MHAAAA"
+  },
+  {
+    "msg": "Dale",
+    "socketId": "kkbf53dGV1ynAoHTAAAA"
+  },
+    {
+    "msg": "El viernes voy",
+    "socketId": "kkbf53dGV1ynAoHTAAAA"
+  }
+])
+
+db.productos.insertMany([{
+    "title": "Escuadra",
+    "price": 100
+  },
+  {
+    "title": "Globo",
+    "price": 300
+  },
+  {
+    "title": "Cuaderno",
+    "price": 500
+  },
+  {
+    "title": "Teclado",
+    "price": 800
+  },
+  {
+    "title": "Mouse",
+    "price": 800
+  },
+  {
+    "title": "Pantalla",
+    "price": 2000
+  },
+  {
+    "title": "Notebook",
+    "price": 4500
+  },
+  {
+    "title": "Celular",
+    "price": 3000
+  },
+  {
+    "title": "Impresora",
+    "price": 2500
+  },
+  {
+    "title": "Parlantes",
+    "price": 4000
+  }])
+
+// 3. FIND
+
+db.productos.find()
+
+db.mensajes.find()
+
+// 4. COUNT 
+
+db.productos.countDocuments()
+db.mensajes.countDocuments()
+
+// 5. CRUD
+
+db.productos.insertOne( {
+    "title": "Adaptador",
+    "price": 1000
+  })
+
+db.productos.find({price:{$lt:1000}})
+db.productos.find(
+    {$and:
+        [
+            {price:
+                {$gte:1000}
+            },
+            {price:
+                {$lte:3000}
+            }
+        ]
+    }
+)
+db.productos.find({price:{$gt:3000}})
+db.productos.find({},{title:1,_id:0}).sort({price:1}).limit(1).skip(2)
+
+db.productos.updateMany(
+    {},
+    {$set: {stock:100}}
+)
+
+db.productos.updateMany(
+    {price:
+        {$gt:4000}
+    },
+    {$set: {stock:0}}
+)
