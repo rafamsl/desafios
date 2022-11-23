@@ -1,0 +1,22 @@
+1. Crear produtos de 0 OK
+2. Buscar productos con tabla vacia OK
+3. Crear carrito de 0 OK
+4. Buscar carrito vacio OK
+5. Agregar un producto errado OK
+5. Agregar un producto bien OK
+5. Agregar un producto repetido OK
+6. Buscar todos los productos OK
+7. Buscar un producto OK
+7. Buscar un producto que no existe OK
+8. Crear un carrito OK 
+9. Buscar todos los carritos OK 
+10. Buscar un carrito OK
+11. Buscar un carrito que no existe OK
+12. Agregar un producto a un carrito OK
+13. Agregar un producto a un carrito que no hay stock OK
+14. Borrar un producto ok
+15. Borrar un producto de un carrito ok
+16. Borrar un carrito ok
+
+
+

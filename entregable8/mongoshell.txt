@@ -134,3 +134,17 @@ db.productos.updateMany(
     },
     {$set: {stock:0}}
 )
+
+db.productos.deleteMany({price:{$lt:1000}})
+
+// 6. AUTH
+
+db.createUser(
+  {
+    user: "pepe",
+    pwd: "asd456",
+    roles: [
+        { role: "read", db: "ecommerce" }
+    ]
+  }
+)
