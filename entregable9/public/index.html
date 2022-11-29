@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="/socket.io/socket.io.js" ></script>
+    <title>Desafio 06 - Websockets</title>
+</head>
+<body>
+    <main>
+      <div id="productos">
+      <!-- Plantilla de productos handlebars obtenida mediante fetch -->
+      </div>
+      <form id="textMsg_form">
+        <input type="text" name="text" placeholder="Mensaje" id="text">
+        <input type="text" name="nombre" placeholder="First Name" id="nombre">
+        <input type="text" name="apellido" placeholder="Last Name" id="apellido">
+        <input type="number" name="edad" placeholder="Age" id="edad">
+        <input type="text" name="email" placeholder="Email" id="email">
+        <input type="text" name="avatar" placeholder="Avatar" id="avatar">
+        <button type="submit" id="textMsg_submit">Enviar</button>
+      </form>
+      <div id="chat">
+        <h2 id="chat_title">Chat</h2>
+        <div id="chat_display">
+        </div>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="/js/main.js" ></script>
+</body>
+</html>

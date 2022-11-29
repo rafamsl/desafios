@@ -31,6 +31,16 @@ router.get('/:id', async (req, res) => {
     }
 
 })
+router.get('/productos-test', async (req, res) => {
+    try {
+        const productos = await Productos.getById(id);
+        res.json({productos})
+        // res.render('index.pug',{productos, page});
+    } catch (Error) {
+        res.status(400).send(Error.message);
+    }
+
+})
 router.post('', async (req, res) => {
     const { title, price, thumbnail } = req.body;
     try {
