@@ -1,8 +1,8 @@
 {
-  "name": "entregable9",
+  "name": "proy_f_2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,13 +11,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dayjs": "^1.11.6",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
     "dotenv": "^16.0.3",
-    "express-handlebars": "^6.0.6",
-    "faker": "^5.5.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
     "firebase-admin": "^11.3.0",
+    "html": "^1.0.0",
     "joi": "^17.7.0",
     "mongoose": "^6.7.3",
+    "nodemon": "^2.0.20",
     "socket.io": "^4.5.4"
   }
 }
