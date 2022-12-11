@@ -211,5 +211,10 @@
     "timestamp": "11/12/2022 12:51:35",
     "message": "ValidationError: lastname: Path `lastname` is required., name: Path `name` is required.",
     "id": 39
+  },
+  {
+    "timestamp": "11/12/2022 19:00:24",
+    "message": "ValidationError: \"title\" is required",
+    "id": 40
   }
 ]

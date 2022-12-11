@@ -37,7 +37,6 @@ async function save(req,res){
     try {
         console.log("agregando producto")
         const { title, description, code, thumbnail, price, stock } = req.body;
-        console.log(ProductosDao)
         let product = await ProductosDao.getByCodigo(code)
     
         if (!product){

@@ -1,5 +1,6 @@
 import { UsuariosDao, ProductosDao } from "../../dao/index.js"
 import { BCRYPT_UTILS, DATE_UTILS, ERRORS_UTILS, JOI_VALIDATOR, LOGGER_UTILS } from "../../utils/index.js"
+import { ProductController } from "../productos/index.js";
 
 async function getAllProducts(){
     try {
@@ -21,6 +22,18 @@ async function home(req,res){
     const products = await getAllProducts()
     console.log(products)
     res.render("home", { username: req.user.email, products: products });
+}
+
+async function view_new_product(req,res){
+  res.render("new-product")
+}
+async function new_product(req,res){
+  try {
+    await ProductController.save(req,res)  
+    res.render("home");
+  } catch (error) {
+    res.send({error:error})
+  }
 }
 
 async function logout(req, res) {
@@ -65,4 +78,4 @@ async function register(req,res){
 }
 
 
-export const LoginController = {viewLogin, viewRegister, home, logout, failureLogin, failureRegister, register}
+export const LoginController = {viewLogin, viewRegister, home, logout, failureLogin, failureRegister, register, view_new_product, new_product}
