@@ -1,0 +1,34 @@
+<div class="container my-5">
+  <div class="jumbotron">
+    <h1>Hola {{ username }}</h1>
+    
+    <hr>
+    <h3>Lista de Productos</h3>
+    <div>
+    {{#if products.length}}
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Foto</th>
+        </tr>
+        {{#each products}}
+        <tr>
+            <td>{{this.title}}</td>
+            <td>${{this.price}}</td>
+            <td><img width="48" src={{this.thumbnail}} alt="image"></td>
+        </tr>
+        {{/each}}
+    </table>
+    {{else}}
+    <div>
+        No hay productos
+    </div>
+    
+    {{/if}}
+    </div>
+    <div class="text-left">
+      <button class="btn btn-success my-3" onclick="location.href = '/logout'">Logout</button>
+    </div>
+  </div>
+</div>
