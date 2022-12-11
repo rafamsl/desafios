@@ -25,7 +25,7 @@ app.use(session({
 	store:MongoStore.create({
 		mongoUrl: config.DATABASES.mongo.url,
 		mongoOptions,
-		ttl:60,
+		ttl:600,
 		collectionName:'sessions'
 	}),
 	secret:'secret',

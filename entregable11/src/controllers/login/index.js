@@ -20,7 +20,7 @@ async function viewRegister(req,res){
 async function home(req,res){
     const products = await getAllProducts()
     console.log(products)
-    res.render("home", { username: req.user.username, products: products });
+    res.render("home", { username: req.user.email, products: products });
 }
 
 async function logout(req, res) {
