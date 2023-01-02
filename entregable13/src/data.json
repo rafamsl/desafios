@@ -1,0 +1,52 @@
+{
+   "id": "19366893",
+   "displayName": null,
+   "username": "rafamsl",
+   "profileUrl": "https://github.com/rafamsl",
+   "emails": [
+      {
+         "value": "rafael.msl81@gmail.com"
+      }
+   ],
+   "photos": [
+      {
+         "value": "https://avatars.githubusercontent.com/u/19366893?v=4"
+      }
+   ],
+   "provider": "github",
+   "_raw": "{\"login\":\"rafamsl\",\"id\":19366893,\"node_id\":\"MDQ6VXNlcjE5MzY2ODkz\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/19366893?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/rafamsl\",\"html_url\":\"https://github.com/rafamsl\",\"followers_url\":\"https://api.github.com/users/rafamsl/followers\",\"following_url\":\"https://api.github.com/users/rafamsl/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/rafamsl/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/rafamsl/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/rafamsl/subscriptions\",\"organizations_url\":\"https://api.github.com/users/rafamsl/orgs\",\"repos_url\":\"https://api.github.com/users/rafamsl/repos\",\"events_url\":\"https://api.github.com/users/rafamsl/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/rafamsl/received_events\",\"type\":\"User\",\"site_admin\":false,\"name\":null,\"company\":null,\"blog\":\"\",\"location\":null,\"email\":\"rafael.msl81@gmail.com\",\"hireable\":null,\"bio\":null,\"twitter_username\":null,\"public_repos\":6,\"public_gists\":0,\"followers\":0,\"following\":0,\"created_at\":\"2016-05-14T23:29:35Z\",\"updated_at\":\"2022-12-10T15:55:19Z\"}",
+   "_json": {
+      "login": "rafamsl",
+      "id": 19366893,
+      "node_id": "MDQ6VXNlcjE5MzY2ODkz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19366893?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rafamsl",
+      "html_url": "https://github.com/rafamsl",
+      "followers_url": "https://api.github.com/users/rafamsl/followers",
+      "following_url": "https://api.github.com/users/rafamsl/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rafamsl/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rafamsl/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rafamsl/subscriptions",
+      "organizations_url": "https://api.github.com/users/rafamsl/orgs",
+      "repos_url": "https://api.github.com/users/rafamsl/repos",
+      "events_url": "https://api.github.com/users/rafamsl/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rafamsl/received_events",
+      "type": "User",
+      "site_admin": false,
+      "name": null,
+      "company": null,
+      "blog": "",
+      "location": null,
+      "email": "rafael.msl81@gmail.com",
+      "hireable": null,
+      "bio": null,
+      "twitter_username": null,
+      "public_repos": 6,
+      "public_gists": 0,
+      "followers": 0,
+      "following": 0,
+      "created_at": "2016-05-14T23:29:35Z",
+      "updated_at": "2022-12-10T15:55:19Z"
+   }
+}
