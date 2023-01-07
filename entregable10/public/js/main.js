@@ -11,7 +11,7 @@ loginForm.addEventListener('submit',(e) =>{
 	const formData = new FormData(loginForm)
 	const formValues = Object.fromEntries(formData)
 	const name = formValues.name
-	window.location.href(`/home?name=${name}`);
+	window.location.replace(`/goinghome?name=${name}`);
 })
 
 //logout

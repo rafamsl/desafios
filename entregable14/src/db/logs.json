@@ -1,0 +1,235 @@
+[
+  {
+    "timestamp": "20/11/2022 12:46:03",
+    "message": {
+      "_original": {
+        "stock": 1,
+        "timestamp": "20/11/2022 12:46:03"
+      },
+      "details": [
+        {
+          "message": "\"title\" is required",
+          "path": [
+            "title"
+          ],
+          "type": "any.required",
+          "context": {
+            "label": "title",
+            "key": "title"
+          }
+        }
+      ]
+    },
+    "id": 1
+  },
+  {
+    "timestamp": "20/11/2022 12:47:25",
+    "message": {},
+    "id": 2
+  },
+  {
+    "timestamp": "20/11/2022 12:47:36",
+    "message": {},
+    "id": 3
+  },
+  {
+    "timestamp": "20/11/2022 12:47:37",
+    "message": {},
+    "id": 4
+  },
+  {
+    "timestamp": "20/11/2022 12:48:52",
+    "message": {},
+    "id": 5
+  },
+  {
+    "timestamp": "20/11/2022 12:49:23",
+    "message": {},
+    "id": 6
+  },
+  {
+    "timestamp": "20/11/2022 12:49:24",
+    "message": {},
+    "id": 7
+  },
+  {
+    "timestamp": "20/11/2022 12:49:42",
+    "message": {},
+    "id": 8
+  },
+  {
+    "timestamp": "20/11/2022 12:50:09",
+    "message": {},
+    "id": 9
+  },
+  {
+    "timestamp": "20/11/2022 12:59:43",
+    "message": {},
+    "id": 10
+  },
+  {
+    "timestamp": "20/11/2022 12:59:51",
+    "message": {},
+    "id": 11
+  },
+  {
+    "timestamp": "20/11/2022 12:59:57",
+    "message": {},
+    "id": 12
+  },
+  {
+    "timestamp": "20/11/2022 13:00:10",
+    "message": {},
+    "id": 13
+  },
+  {
+    "timestamp": "20/11/2022 13:00:21",
+    "message": {},
+    "id": 14
+  },
+  {
+    "timestamp": "20/11/2022 13:01:39",
+    "message": {},
+    "id": 15
+  },
+  {
+    "timestamp": "20/11/2022 13:02:06",
+    "message": {},
+    "id": 16
+  },
+  {
+    "timestamp": "20/11/2022 13:02:32",
+    "message": {},
+    "id": 17
+  },
+  {
+    "timestamp": "20/11/2022 13:04:33",
+    "message": "TypeError: Assignment to constant variable.",
+    "id": 18
+  },
+  {
+    "timestamp": "20/11/2022 13:04:50",
+    "message": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client",
+    "id": 19
+  },
+  {
+    "timestamp": "20/11/2022 13:33:37",
+    "message": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client",
+    "id": 20
+  },
+  {
+    "timestamp": "20/11/2022 13:33:56",
+    "message": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client",
+    "id": 21
+  },
+  {
+    "timestamp": "20/11/2022 15:46:01",
+    "message": "RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 1",
+    "id": 22
+  },
+  {
+    "timestamp": "20/11/2022 20:05:20",
+    "message": "TypeError: ProductosDao.getByCodigo is not a function",
+    "id": 23
+  },
+  {
+    "timestamp": "20/11/2022 20:06:20",
+    "message": "ValidationError: \"code\" is required",
+    "id": 24
+  },
+  {
+    "timestamp": "20/11/2022 20:25:39",
+    "message": "ValidationError: \"title\" is required",
+    "id": 25
+  },
+  {
+    "timestamp": "20/11/2022 20:31:27",
+    "message": "ValidationError: \"title\" is required",
+    "id": 26
+  },
+  {
+    "timestamp": "23/11/2022 01:22:15",
+    "message": "TypeError: Cannot read properties of undefined (reading 'getByCodigo')",
+    "id": 27
+  },
+  {
+    "timestamp": "23/11/2022 01:23:45",
+    "message": "TypeError: Cannot read properties of undefined (reading 'getByCodigo')",
+    "id": 28
+  },
+  {
+    "timestamp": "23/11/2022 01:24:10",
+    "message": "TypeError: Cannot read properties of undefined (reading 'getByCodigo')",
+    "id": 29
+  },
+  {
+    "timestamp": "23/11/2022 01:24:27",
+    "message": "TypeError: Cannot read properties of undefined (reading 'getByCodigo')",
+    "id": 30
+  },
+  {
+    "timestamp": "23/11/2022 01:24:56",
+    "message": "TypeError: Cannot read properties of undefined (reading 'getByCodigo')",
+    "id": 31
+  },
+  {
+    "timestamp": "23/11/2022 01:25:35",
+    "message": "TypeError: Cannot read properties of undefined (reading 'getByCodigo')",
+    "id": 32
+  },
+  {
+    "timestamp": "11/12/2022 12:32:11",
+    "message": "ReferenceError: JOI_VALIDATOR is not defined",
+    "id": 33
+  },
+  {
+    "timestamp": "11/12/2022 12:45:29",
+    "message": "ReferenceError: UsuariosDao is not defined",
+    "id": 34
+  },
+  {
+    "timestamp": "11/12/2022 12:47:26",
+    "message": "ValidationError: \"email\" must be a valid email",
+    "id": 35
+  },
+  {
+    "timestamp": "11/12/2022 12:48:01",
+    "message": "ValidationError: \"email\" must be a valid email",
+    "id": 36
+  },
+  {
+    "timestamp": "11/12/2022 12:50:45",
+    "message": "ValidationError: \"email\" must be a valid email",
+    "id": 37
+  },
+  {
+    "timestamp": "11/12/2022 12:51:12",
+    "message": "ValidationError: \"email\" must be a valid email",
+    "id": 38
+  },
+  {
+    "timestamp": "11/12/2022 12:51:35",
+    "message": "ValidationError: lastname: Path `lastname` is required., name: Path `name` is required.",
+    "id": 39
+  },
+  {
+    "timestamp": "11/12/2022 19:00:24",
+    "message": "ValidationError: \"title\" is required",
+    "id": 40
+  },
+  {
+    "timestamp": "12/12/2022 22:51:46",
+    "message": "ValidationError: carrito: Cast to ObjectId failed for value \"{}\" (type Object) at path \"carrito\" because of \"BSONTypeError\"",
+    "id": 41
+  },
+  {
+    "timestamp": "12/12/2022 22:53:27",
+    "message": "ValidationError: carrito: Cast to ObjectId failed for value \"\" (type string) at path \"carrito\" because of \"BSONTypeError\"",
+    "id": 42
+  },
+  {
+    "timestamp": "12/12/2022 23:10:48",
+    "message": "ReferenceError: res is not defined",
+    "id": 43
+  }
+]

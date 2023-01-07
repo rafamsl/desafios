@@ -75,7 +75,7 @@ io.on('connection', clienteNuevo => {
 // SERVER
 if(config.SERVER.MODE == "CLUSTER"){
 	if(cluster.isPrimary){
-		const lengthCpu= 3
+		const lengthCpu= 10
 		for (let index = 0; index < lengthCpu; index++) {
 			cluster.fork()
 		}

@@ -3,7 +3,7 @@ import yargs from "yargs/yargs"
 dotenv.config();
 
 
-const args = yargs(process.argv.slice(2)).default({port:process.env.PORT, mode:"FORK"}).alias({p:"port", m:"mode"}).argv;
+const args = yargs(process.argv.slice(2)).default({port:8000, mode:"FORK"}).alias({p:"port", m:"mode"}).argv;
 
 const PRODUCTS_FILENAME = "productos";
 const CARTS_FILENAME = "carritos";
