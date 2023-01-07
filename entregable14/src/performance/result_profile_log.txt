@@ -1,0 +1,960 @@
+Statistical profiling result from profile.log, (1870 ticks, 20 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+     25    1.3%          /usr/lib/system/libsystem_c.dylib
+     22    1.2%          /usr/lib/system/libsystem_malloc.dylib
+     18    1.0%          /usr/lib/libc++.1.dylib
+      3    0.2%          /usr/lib/system/libsystem_platform.dylib
+      2    0.1%          /usr/lib/system/libsystem_kernel.dylib
+      1    0.1%          /usr/lib/system/libdyld.dylib
+      1    0.1%          /usr/lib/libobjc.A.dylib
+      1    0.1%          /usr/lib/libc++abi.dylib
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+      8    0.4%    0.4%  LazyCompile: *resolve node:path:1091:10
+      4    0.2%    0.2%  LazyCompile: *wrap /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:101:22
+      3    0.2%    0.2%  LazyCompile: *normalizeString node:path:66:25
+      3    0.2%    0.2%  LazyCompile: *next /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+      3    0.2%    0.2%  LazyCompile: *SourceNode_walk /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/source-map/lib/source-node.js:221:53
+      1    0.1%    0.1%  RegExp: ^\/socket\.io\/socket\.io(\.msgpack|\.esm)?(\.min)?\.js(\.map)?(?:\?|$)
+      1    0.1%    0.1%  RegExp: ^(?:\{\{\{\{)
+      1    0.1%    0.1%  RegExp: ^(?:\{\{(~)?\^)
+      1    0.1%    0.1%  RegExp: ^(?:\{\{(~)?\/)
+      1    0.1%    0.1%  RegExp: ^(?:\s+)
+      1    0.1%    0.1%  RegExp: ^(?:\()
+      1    0.1%    0.1%  RegExp: ^(?:[^\x00]*?(?=(\{\{)))
+      1    0.1%    0.1%  RegExp: ^(?:(~)?\}\})
+      1    0.1%    0.1%  LazyCompile: *next /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/router/index.js:177:16
+      1    0.1%    0.1%  LazyCompile: *compileFunction node:vm:308:25
+      1    0.1%    0.1%  LazyCompile: *anonymous /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:12:42
+      1    0.1%    0.1%  LazyCompile: *__generator /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:27:58
+      1    0.1%    0.1%  LazyCompile: *SourceNode_add /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/source-map/lib/source-node.js:172:51
+      1    0.1%    0.1%  Function: ^write_ node:_http_outgoing:730:16
+      1    0.1%    0.1%  Function: ^validateNumber node:internal/validators:123:24
+      1    0.1%    0.1%  Function: ^updateServers /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sdam/topology.js:489:23
+      1    0.1%    0.1%  Function: ^stringToFlags node:internal/fs/utils:556:23
+      1    0.1%    0.1%  Function: ^setupParams /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1034:36
+      1    0.1%    0.1%  Function: ^set maxAge /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-session/session/cookie.js:83:13
+      1    0.1%    0.1%  Function: ^session /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-session/index.js:179:26
+      1    0.1%    0.1%  Function: ^router /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/router/index.js:46:18
+      1    0.1%    0.1%  Function: ^readFileAfterStat node:fs:327:27
+      1    0.1%    0.1%  Function: ^read /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/utils.js:704:9
+      1    0.1%    0.1%  Function: ^processTimers node:internal/timers:487:25
+      1    0.1%    0.1%  Function: ^percolateDown node:internal/priority_queue:49:16
+      1    0.1%    0.1%  Function: ^peek node:internal/priority_queue:45:7
+      1    0.1%    0.1%  Function: ^parse /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/commands.js:426:10
+      1    0.1%    0.1%  Function: ^nextTick node:internal/process/task_queues:104:18
+      1    0.1%    0.1%  Function: ^next /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/router/route.js:116:16
+      1    0.1%    0.1%  Function: ^isFull node:internal/fixed_queue:71:9
+      1    0.1%    0.1%  Function: ^getPositiveIntegerOption /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/safe-stable-stringify/index.js:163:35
+      1    0.1%    0.1%  Function: ^fresh /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/parseurl/index.js:153:16
+      1    0.1%    0.1%  Function: ^endReadable node:internal/streams/readable:1328:21
+      1    0.1%    0.1%  Function: ^emitAfterScript node:internal/async_hooks:516:25
+      1    0.1%    0.1%  Function: ^deserializeObject /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/deserializer.js:65:27
+      1    0.1%    0.1%  Function: ^_copy node:buffer:203:15
+      1    0.1%    0.1%  Function: ^_addListener node:events:555:22
+      1    0.1%    0.1%  Function: ^Stream node:internal/streams/legacy:10:16
+      1    0.1%    0.1%  Function: ^SourceNode_add /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/source-map/lib/source-node.js:172:51
+      1    0.1%    0.1%  Function: ^ReadableState node:internal/streams/readable:83:23
+      1    0.1%    0.1%  Function: ^Readable.read /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/readable-stream/lib/_stream_readable.js:392:36
+      1    0.1%    0.1%  Function: ^Readable.on node:internal/streams/readable:897:33
+      1    0.1%    0.1%  Function: ^RES /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/inflight/inflight.js:18:28
+      1    0.1%    0.1%  Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+      1    0.1%    0.1%  Function: ^Long.subtract /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/long.js:720:40
+      1    0.1%    0.1%  Function: ^IncomingMessage node:_http_incoming:51:25
+      1    0.1%    0.1%  Function: ^BinMsg /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/commands.js:394:16
+      1    0.1%    0.1%  Function: ^<anonymous> node:internal/validators:222:42
+      1    0.1%    0.1%  Function: ^<anonymous> node:internal/fs/utils:669:38
+      1    0.1%    0.1%  Function: ^<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:201:47
+      1    0.1%    0.1%  Function: *wasm-function[15]
+
+ [C++]:
+   ticks  total  nonlib   name
+    915   48.9%   50.9%  T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+    374   20.0%   20.8%  T _posix_spawnattr_init
+    217   11.6%   12.1%  T node::contextify::ContextifyContext::CompileFunction(v8::FunctionCallbackInfo<v8::Value> const&)
+     44    2.4%    2.4%  T _voucher_mach_msg_adopt
+     22    1.2%    1.2%  T _kdebug_trace
+     16    0.9%    0.9%  t __pthread_bsdthread_init
+     16    0.9%    0.9%  T ___pthread_init
+      9    0.5%    0.5%  T _mach_msg_server_once
+      8    0.4%    0.4%  t ___pfz_setup
+      7    0.4%    0.4%  T node::loader::ModuleWrap::New(v8::FunctionCallbackInfo<v8::Value> const&)
+      6    0.3%    0.3%  T _task_restartable_ranges_synchronize
+      6    0.3%    0.3%  T _host_request_notification
+      5    0.3%    0.3%  t void node::Buffer::(anonymous namespace)::StringSlice<(node::encoding)1>(v8::FunctionCallbackInfo<v8::Value> const&)
+      5    0.3%    0.3%  t std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long)
+      5    0.3%    0.3%  T __kernelrpc_mach_vm_protect_trap
+      5    0.3%    0.3%  T __kernelrpc_mach_port_get_refs
+      4    0.2%    0.2%  t std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char)
+      4    0.2%    0.2%  t __pthread_mutex_global_init
+      3    0.2%    0.2%  T _semaphore_wait_signal_trap
+      3    0.2%    0.2%  T _pthread_workqueue_setup
+      3    0.2%    0.2%  T _mach_vm_allocate
+      2    0.1%    0.1%  t node::EnvGetter(v8::Local<v8::Name>, v8::PropertyCallbackInfo<v8::Value> const&)
+      2    0.1%    0.1%  t node::Buffer::(anonymous namespace)::ByteLengthUtf8(v8::FunctionCallbackInfo<v8::Value> const&)
+      2    0.1%    0.1%  t __pthread_main_thread_init
+      2    0.1%    0.1%  t __os_once_gate_wait
+      2    0.1%    0.1%  T node::fs::NewFSReqCallback(v8::FunctionCallbackInfo<v8::Value> const&)
+      2    0.1%    0.1%  T _mig_dealloc_reply_port
+      2    0.1%    0.1%  T __pthread_exit_if_canceled
+      1    0.1%    0.1%  t std::__1::deque<unsigned long, std::__1::allocator<unsigned long> >::__add_back_capacity()
+      1    0.1%    0.1%  t node::TraceEventScope::TraceEventScope(char const*, char const*, void*)
+      1    0.1%    0.1%  t node::Environment::StartProfilerIdleNotifier()::$_5::__invoke(uv_check_s*)
+      1    0.1%    0.1%  t __pthread_strtoul
+      1    0.1%    0.1%  t __os_nospin_lock_lock_slow
+      1    0.1%    0.1%  t __enlarge
+      1    0.1%    0.1%  T node::fs::FileHandle::Close(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.1%    0.1%  T node::fs::FSReqBase::~FSReqBase()
+      1    0.1%    0.1%  T node::binding::GetInternalBinding(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.1%    0.1%  T node::binding::DLOpen(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.1%    0.1%  T node::InternalCallbackScope::InternalCallbackScope(node::Environment*, v8::Local<v8::Object>, node::async_context const&, int)
+      1    0.1%    0.1%  T _posix_spawn
+      1    0.1%    0.1%  T _os_unfair_recursive_lock_lock_with_options
+      1    0.1%    0.1%  T __platform_strcmp
+
+ [Summary]:
+   ticks  total  nonlib   name
+     72    3.9%    4.0%  JavaScript
+   1705   91.2%   94.9%  C++
+     78    4.2%    4.3%  GC
+     73    3.9%          Shared libraries
+     20    1.1%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+    821   67.7%   43.9%  T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+    217   17.9%   11.6%  T node::contextify::ContextifyContext::CompileFunction(v8::FunctionCallbackInfo<v8::Value> const&)
+     35    2.9%    1.9%  T _voucher_mach_msg_adopt
+     23    1.9%    1.2%  T node::loader::ModuleWrap::Evaluate(v8::FunctionCallbackInfo<v8::Value> const&)
+     22    1.8%    1.2%  T _kdebug_trace
+     16    1.3%    0.9%  t __pthread_bsdthread_init
+     15    1.2%    0.8%  T ___pthread_init
+      9    0.7%    0.5%  T _mach_msg_server_once
+      7    0.6%    0.4%  T node::loader::ModuleWrap::New(v8::FunctionCallbackInfo<v8::Value> const&)
+      5    0.4%    0.3%  t void node::Buffer::(anonymous namespace)::StringSlice<(node::encoding)1>(v8::FunctionCallbackInfo<v8::Value> const&)
+      5    0.4%    0.3%  t std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long)
+      4    0.3%    0.2%  t std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char)
+      4    0.3%    0.2%  t __pthread_mutex_global_init
+      4    0.3%    0.2%  t ___pfz_setup
+      4    0.3%    0.2%  T __kernelrpc_mach_port_get_refs
+      2    0.2%    0.1%  t node::EnvGetter(v8::Local<v8::Name>, v8::PropertyCallbackInfo<v8::Value> const&)
+      2    0.2%    0.1%  t node::Buffer::(anonymous namespace)::ByteLengthUtf8(v8::FunctionCallbackInfo<v8::Value> const&)
+      2    0.2%    0.1%  t __pthread_main_thread_init
+      2    0.2%    0.1%  T node::fs::NewFSReqCallback(v8::FunctionCallbackInfo<v8::Value> const&)
+      2    0.2%    0.1%  T __pthread_exit_if_canceled
+      1    0.1%    0.1%  t std::__1::deque<unsigned long, std::__1::allocator<unsigned long> >::__add_back_capacity()
+      1    0.1%    0.1%  t __pthread_strtoul
+      1    0.1%    0.1%  t __os_once_gate_wait
+      1    0.1%    0.1%  t __os_nospin_lock_lock_slow
+      1    0.1%    0.1%  t __enlarge
+      1    0.1%    0.1%  T node::loader::ModuleWrap::Link(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.1%    0.1%  T node::fs::FileHandle::Close(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.1%    0.1%  T node::binding::GetInternalBinding(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.1%    0.1%  T node::binding::DLOpen(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.1%    0.1%  T _host_request_notification
+      1    0.1%    0.1%  T __platform_strcmp
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+    915   48.9%  T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+    109   11.9%    Function: ^readSync node:fs:685:18
+    109  100.0%      Function: ^tryReadSync node:fs:430:21
+    109  100.0%        Function: ^readFileSync node:fs:451:22
+    104   95.4%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+    102   98.1%            Function: ^Module.load node:internal/modules/cjs/loader:963:33
+      2    1.9%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+      5    4.6%          LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1108:37
+      3   60.0%            Function: ^Module.load node:internal/modules/cjs/loader:963:33
+      2   40.0%            LazyCompile: ~Module.load node:internal/modules/cjs/loader:963:33
+     61    6.7%    T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      6    9.8%      T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      2   33.3%        Function: ^readPackage node:internal/modules/cjs/loader:290:21
+      2  100.0%          Function: ^readPackageScope node:internal/modules/cjs/loader:321:26
+      1   50.0%            Function: ^trySelf node:internal/modules/cjs/loader:441:17
+      1   50.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+      1   16.7%        LazyCompile: *quotedString /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:118:38
+      1  100.0%          LazyCompile: *compile /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%            Function: ^compileInput /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1   16.7%        LazyCompile: *parse /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      1  100.0%          Function: ^parseWithoutProcessing /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:33:32
+      1  100.0%            Function: ^parse /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:51:15
+      1   16.7%        Function: ^stat node:internal/modules/cjs/loader:151:14
+      1  100.0%          Function: ^tryFile node:internal/modules/cjs/loader:384:17
+      1  100.0%            Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
+      1   16.7%        Function: ^Module node:internal/modules/cjs/loader:172:16
+      1  100.0%          Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1  100.0%            Function: ^Module.require node:internal/modules/cjs/loader:991:36
+      3    4.9%      LazyCompile: *quotedString /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:118:38
+      1   33.3%        LazyCompile: *compile /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%          Function: ^compileInput /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1  100.0%            Function: ^ret /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1   33.3%        Function: ^quotedString /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:998:38
+      1  100.0%          Function: ^setupParams /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1034:36
+      1  100.0%            Function: ^setupHelperArgs /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1104:44
+      1   33.3%        Function: ^pushSource /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      1  100.0%          Function: ^append /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:394:26
+      1  100.0%            Function: ^compile /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      3    4.9%      LazyCompile: *next /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+      3  100.0%        LazyCompile: *parse /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      3  100.0%          Function: ^parseWithoutProcessing /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:33:32
+      2   66.7%            Function: ^parse /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:51:15
+      1   33.3%            LazyCompile: *<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      3    4.9%      Function: ^stat node:internal/modules/cjs/loader:151:14
+      2   66.7%        Function: ^tryFile node:internal/modules/cjs/loader:384:17
+      1   50.0%          Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
+      1  100.0%            Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      1   50.0%          Function: ^finalizeEsmResolution node:internal/modules/cjs/loader:939:31
+      1  100.0%            LazyCompile: *Module._findPath node:internal/modules/cjs/loader:494:28
+      1   33.3%        Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      3    4.9%      Function: ^quotedString /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:118:38
+      2   66.7%        Function: ^pushSource /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      1   50.0%          Function: ^compile /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%            Function: ^compileInput /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1   50.0%          Function: ^append /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:394:26
+      1  100.0%            Function: ^compile /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1   33.3%        Function: ^<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:130:39
+      1  100.0%          T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1  100.0%            Function: ^objectLiteral /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:123:40
+      3    4.9%      Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      3  100.0%        Function: ^Module.require node:internal/modules/cjs/loader:991:36
+      3  100.0%          Function: ^require node:internal/modules/cjs/helpers:101:31
+      1   33.3%            Function: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/drivers/node-mongodb-native/index.js:1:1
+      1   33.3%            Function: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/@aws-sdk/credential-providers/dist-cjs/fromCognitoIdentity.js:1:1
+      1   33.3%            Function: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/@aws-sdk/config-resolver/dist-cjs/regionInfo/index.js:1:1
+      2    3.3%      LazyCompile: ~isIPv6 node:internal/net:35:16
+      2  100.0%        LazyCompile: ~isIP node:internal/net:39:14
+      1   50.0%          LazyCompile: ~parseSslOptions /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:237:25
+      1  100.0%            LazyCompile: ~makeConnection /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:256:24
+      1   50.0%          LazyCompile: ~lookupAndConnect node:net:1025:26
+      1  100.0%            LazyCompile: ~Socket.connect node:net:967:36
+      2    3.3%      LazyCompile: *realpathSync node:fs:2426:22
+      2  100.0%        LazyCompile: *Module._findPath node:internal/modules/cjs/loader:494:28
+      2  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      2  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      2    3.3%      Function: ^hash /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-session/index.js:596:14
+      2  100.0%        Function: ^isModified /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-session/index.js:425:24
+      1   50.0%          Function: ^shouldSetCookie /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-session/index.js:464:29
+      1  100.0%            LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-session/index.js:220:28
+      1   50.0%          Function: ^shouldSave /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-session/index.js:440:24
+      1  100.0%            Function: ^end /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-session/index.js:250:27
+      2    3.3%      Function: ^<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      2  100.0%        LazyCompile: *step /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1   50.0%          LazyCompile: *<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1  100.0%            Function: ^fulfilled /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1   50.0%          LazyCompile: *<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%            LazyCompile: *step /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1    1.6%      LazyCompile: ~splitHost node:tls:164:19
+      1  100.0%        LazyCompile: ~checkServerIdentity node:tls:274:59
+      1  100.0%          LazyCompile: ~onConnectSecure node:_tls_wrap:1518:25
+      1  100.0%            Function: ^emit node:events:475:44
+      1    1.6%      LazyCompile: ~resolvePackageTargetString node:internal/modules/esm/resolve:475:36
+      1  100.0%        LazyCompile: ~resolvePackageTarget node:internal/modules/esm/resolve:543:30
+      1  100.0%          LazyCompile: ~resolvePackageTarget node:internal/modules/esm/resolve:543:30
+      1  100.0%            LazyCompile: ~packageExportsResolve node:internal/modules/esm/resolve:649:31
+      1    1.6%      LazyCompile: ~onParseError node:internal/url:562:22
+      1  100.0%        T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1  100.0%          Function: ^URL node:internal/url:635:14
+      1  100.0%            Function: ^defaultResolve node:internal/modules/esm/resolve:1083:30
+      1    1.6%      LazyCompile: ~next /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+      1  100.0%        LazyCompile: ~lex /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:525:30
+      1  100.0%          LazyCompile: ~lex /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:295:25
+      1  100.0%            LazyCompile: ~parse /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      1    1.6%      LazyCompile: ~fromString /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/utils.js:314:22
+      1  100.0%        LazyCompile: ~ns /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/utils.js:292:12
+      1  100.0%          LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:78:43
+      1  100.0%            LazyCompile: ~prepareHandshakeDocument /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:151:34
+      1    1.6%      LazyCompile: ~deprecate node:internal/util:96:19
+      1  100.0%        Function: ~<anonymous> node:dgram:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    1.6%      LazyCompile: ~createToken /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/@mapbox/node-pre-gyp/node_modules/semver/internal/re.js:11:21
+      1  100.0%        Function: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/@mapbox/node-pre-gyp/node_modules/semver/internal/re.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1053:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+      1    1.6%      LazyCompile: ~callBind /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/call-bind/index.js:23:35
+      1  100.0%        LazyCompile: ~callBoundIntrinsic /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/call-bind/callBound.js:9:45
+      1  100.0%          Function: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/side-channel/index.js:1:1
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1053:37
+      1    1.6%      LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/helpers/pluralize.js:86:34
+      1  100.0%        T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1  100.0%          LazyCompile: ~pluralize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/helpers/pluralize.js:82:19
+      1  100.0%            LazyCompile: ~exports.toCollectionName /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/utils.js:43:36
+      1    1.6%      LazyCompile: *Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%        Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1  100.0%          Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1  100.0%            Function: ^Module.require node:internal/modules/cjs/loader:991:36
+      1    1.6%      Function: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/yargs/build/index.cjs:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1053:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:963:33
+      1    1.6%      Function: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/@mapbox/node-pre-gyp/lib/util/versioning.js:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1053:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:963:33
+      1    1.6%      Function: ^toBin /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/commands.js:82:10
+      1  100.0%        Function: ^writeCommand /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/message_stream.js:40:17
+      1  100.0%          Function: ^write /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connection.js:404:15
+      1  100.0%            Function: ^command /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connection.js:251:12
+      1    1.6%      Function: ^step /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:23:22
+      1  100.0%        Function: ^fulfilled /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1    1.6%      Function: ^readPackage node:internal/modules/cjs/loader:290:21
+      1  100.0%        Function: ^readPackageScope node:internal/modules/cjs/loader:321:26
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:963:33
+      1    1.6%      Function: ^randomBytes node:internal/crypto/random:91:21
+      1  100.0%        LazyCompile: ~randomBytesSync /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/random-bytes/index.js:72:25
+      1  100.0%          LazyCompile: ~uidSync /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/uid-safe/index.js:75:18
+      1  100.0%            LazyCompile: ~generateSessionId /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-session/index.js:518:27
+      1    1.6%      Function: ^parse /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/minimatch/minimatch.js:413:9
+      1  100.0%        T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1  100.0%          Function: ^<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/minimatch/minimatch.js:222:19
+      1  100.0%            T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1    1.6%      Function: ^next /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/URLSearchParams.js:446:9
+      1  100.0%        Function: ^parseOptions /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/connection_string.js:195:22
+      1  100.0%          LazyCompile: ~MongoClient /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/mongo_client.js:43:16
+      1  100.0%            LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/mongo_client.js:234:43
+      1    1.6%      Function: ^match /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/router/layer.js:110:39
+      1  100.0%        Function: ^matchLayer /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/router/index.js:583:20
+      1  100.0%          Function: ^next /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/router/index.js:177:16
+      1  100.0%            Function: ^handle /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/router/index.js:136:31
+      1    1.6%      Function: ^inflight /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/inflight/inflight.js:7:19
+      1  100.0%        Function: ^wrapper /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/wrappy/wrappy.js:19:19
+      1  100.0%          Function: ^Glob._readdir /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/glob/glob.js:525:36
+      1  100.0%            Function: ^Glob._processGlobStar /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/glob/glob.js:623:44
+      1    1.6%      Function: ^getOptionValue node:internal/options:44:24
+      1  100.0%        LazyCompile: ~finalizeResolution node:internal/modules/esm/resolve:372:28
+      1  100.0%          Function: ^moduleResolve node:internal/modules/esm/resolve:942:23
+      1  100.0%            LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:1083:30
+      1    1.6%      Function: ^format /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/content-type/index.js:65:17
+      1  100.0%        Function: ^setCharset /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/utils.js:248:41
+      1  100.0%          Function: ^send /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/response.js:111:25
+      1  100.0%            LazyCompile: *<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1    1.6%      Function: ^expressInit /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/middleware/init.js:29:30
+      1  100.0%        Function: ^handle /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          Function: ^trim_prefix /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            LazyCompile: *next /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/router/index.js:177:16
+      1    1.6%      Function: ^deserializeObject /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/deserializer.js:65:27
+      1  100.0%        Function: ^deserialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/deserializer.js:36:21
+      1  100.0%          Function: ^deserialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/bson.js:161:21
+      1  100.0%            Function: ^parse /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/commands.js:426:10
+      1    1.6%      Function: ^databaseNamespace /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/utils.js:353:27
+      1  100.0%        Function: ^Msg /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/commands.js:317:16
+      1  100.0%          Function: ^command /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connection.js:251:12
+      1  100.0%            LazyCompile: ~measureRoundTripTime /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sdam/monitor.js:288:30
+      1    1.6%      Function: ^createFunctionContext /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:216:56
+      1  100.0%        Function: ^compile /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%          Function: ^compileChildren /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:805:44
+      1  100.0%            Function: ^compile /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1    1.6%      Function: ^compileFunction node:vm:308:25
+      1  100.0%        Function: ^wrapSafe node:internal/modules/cjs/loader:1011:18
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1053:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+      1    1.6%      Function: ^classifySexpr /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:363:40
+      1  100.0%        Function: ^SubExpression /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:236:40
+      1  100.0%          Function: ^MustacheStatement /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:215:48
+      1  100.0%            Function: ^accept /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:101:26
+      1    1.6%      Function: ^checkInvalidHeaderChar node:_http_common:232:32
+      1  100.0%        Function: ^<anonymous> node:_http_outgoing:564:45
+      1  100.0%          Function: ^setHeader node:_http_outgoing:574:57
+      1  100.0%            Function: ^header /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/response.js:777:29
+      1    1.6%      Function: ^Query /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/commands.js:29:16
+      1  100.0%        Function: ^command /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connection.js:251:12
+      1  100.0%          Function: ^<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:78:43
+      1  100.0%            LazyCompile: ~prepareHandshakeDocument /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:151:34
+      1    1.6%      Function: ^FastBuffer node:internal/buffer:958:14
+      1  100.0%        Function: ^alloc node:buffer:362:30
+      1  100.0%          Function: ^serialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/bson.js:110:19
+      1  100.0%            LazyCompile: ~serializeBson /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/commands.js:379:18
+      1    1.6%      Function: ^<anonymous> node:internal/url:698:12
+      1  100.0%        Function: ^get href node:internal/url:752:11
+      1  100.0%          Function: ^isURLInstance node:internal/url:1557:23
+      1  100.0%            Function: ^fileURLToPath node:internal/url:1478:23
+     39    4.3%    Function: ^read node:internal/modules/package_json_reader:16:14
+     36   92.3%      Function: ^readPackage node:internal/modules/cjs/loader:290:21
+     18   50.0%        Function: ^resolveExports node:internal/modules/cjs/loader:472:24
+     18  100.0%          Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+     15   83.3%            Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      3   16.7%            LazyCompile: ~Module._resolveFilename node:internal/modules/cjs/loader:848:35
+     17   47.2%        LazyCompile: *Module._findPath node:internal/modules/cjs/loader:494:28
+     17  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+     17  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1    2.8%        LazyCompile: ~resolveExports node:internal/modules/cjs/loader:472:24
+      1  100.0%          Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%            LazyCompile: ~Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      2    5.1%      LazyCompile: ~readPackage node:internal/modules/cjs/loader:290:21
+      2  100.0%        LazyCompile: ~resolveExports node:internal/modules/cjs/loader:472:24
+      2  100.0%          LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      2  100.0%            LazyCompile: ~Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1    2.6%      Function: ^getPackageConfig node:internal/modules/esm/resolve:173:26
+      1  100.0%        LazyCompile: ~packageResolve node:internal/modules/esm/resolve:854:24
+      1  100.0%          Function: ^moduleResolve node:internal/modules/esm/resolve:942:23
+      1  100.0%            LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:1083:30
+     38    4.2%    Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+     33   86.8%      Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      4   12.1%        Function: ~<anonymous> node:http:1:1
+      4  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      4  100.0%            LazyCompile: ~compileForPublicLoader node:internal/bootstrap/loaders:246:25
+      4   12.1%        Function: ~<anonymous> node:http2:1:1
+      4  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      4  100.0%            Function: ^compileForPublicLoader node:internal/bootstrap/loaders:246:25
+      4   12.1%        Function: ~<anonymous> node:crypto:1:1
+      4  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      4  100.0%            Function: ^compileForPublicLoader node:internal/bootstrap/loaders:246:25
+      3    9.1%        Function: ~<anonymous> node:tls:1:1
+      3  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      3  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    3.0%        LazyCompile: ~lazyWebCrypto node:crypto:127:23
+      1  100.0%          LazyCompile: ~get node:crypto:296:8
+      1  100.0%            T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1    3.0%        LazyCompile: ~initCJSParse node:internal/modules/esm/translators:58:28
+      1  100.0%          LazyCompile: ~commonjsStrategy node:internal/modules/esm/translators:148:60
+      1  100.0%            LazyCompile: ~moduleProvider node:internal/modules/esm/loader:346:28
+      1    3.0%        LazyCompile: ~get node:dns:387:8
+      1  100.0%          T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1  100.0%            Function: ^getOwn node:internal/bootstrap/loaders:180:16
+      1    3.0%        Function: ~<anonymous> node:internal/process/esm_loader:1:1
+      1  100.0%          LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    3.0%        Function: ~<anonymous> node:internal/modules/esm/loader:1:1
+      1  100.0%          LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    3.0%        Function: ~<anonymous> node:internal/http2/core:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    3.0%        Function: ~<anonymous> node:internal/http2/compat:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    3.0%        Function: ~<anonymous> node:internal/crypto/pbkdf2:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    3.0%        Function: ~<anonymous> node:internal/crypto/hkdf:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    3.0%        Function: ~<anonymous> node:internal/cluster/primary:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    3.0%        Function: ~<anonymous> node:internal/child_process:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    3.0%        Function: ~<anonymous> node:dns:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^compileForPublicLoader node:internal/bootstrap/loaders:246:25
+      1    3.0%        Function: ~<anonymous> node:cluster:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            LazyCompile: ~compileForPublicLoader node:internal/bootstrap/loaders:246:25
+      1    3.0%        Function: ~<anonymous> node:child_process:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    3.0%        Function: ~<anonymous> node:assert:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^compileForPublicLoader node:internal/bootstrap/loaders:246:25
+      1    3.0%        Function: ~<anonymous> node:_tls_wrap:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    3.0%        Function: ~<anonymous> node:_http_common:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    3.0%        Function: ~<anonymous> node:_http_client:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      5   13.2%      Function: ^compileForPublicLoader node:internal/bootstrap/loaders:246:25
+      5  100.0%        Function: ^loadNativeModule node:internal/modules/cjs/helpers:44:26
+      5  100.0%          Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      5  100.0%            Function: ^Module.require node:internal/modules/cjs/loader:991:36
+     21    2.3%    LazyCompile: ~configSecureContext node:internal/tls/secure-context:120:29
+     21  100.0%      LazyCompile: ~createSecureContext node:_tls_common:99:29
+     21  100.0%        LazyCompile: ~connect node:_tls_wrap:1599:35
+     21  100.0%          LazyCompile: ~makeConnection /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:256:24
+     21  100.0%            LazyCompile: ~connect /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:30:17
+     20    2.2%    LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+     19   95.0%      Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      4   21.1%        Function: ~<anonymous> node:internal/webstreams/adapters:1:1
+      4  100.0%          LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      4  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      4   21.1%        Function: ~<anonymous> node:internal/modules/esm/loader:1:1
+      4  100.0%          LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      4  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      2   10.5%        LazyCompile: ~initializeCJSLoader node:internal/bootstrap/pre_execution:523:29
+      2  100.0%          LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:27:36
+      2  100.0%            Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      2   10.5%        Function: ~<anonymous> node:internal/webstreams/readablestream:1:1
+      2  100.0%          LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      2   10.5%        Function: ~<anonymous> node:internal/modules/esm/fetch_module:1:1
+      2  100.0%          LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    5.3%        Function: ~<anonymous> node:internal/source_map/source_map_cache:1:1
+      1  100.0%          LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    5.3%        Function: ~<anonymous> node:internal/modules/esm/get_source:1:1
+      1  100.0%          LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    5.3%        Function: ~<anonymous> node:internal/modules/esm/get_format:1:1
+      1  100.0%          LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    5.3%        Function: ~<anonymous> node:internal/modules/cjs/loader:1:1
+      1  100.0%          LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    5.3%        Function: ~<anonymous> node:internal/fs/promises:1:1
+      1  100.0%          LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    5.0%      LazyCompile: ~nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1  100.0%        Function: ~<anonymous> node:internal/main/run_main_module:1:1
+     17    1.9%    LazyCompile: *compileFunction node:vm:308:25
+     17  100.0%      Function: ^wrapSafe node:internal/modules/cjs/loader:1011:18
+     17  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1053:37
+     17  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+     13   76.5%            Function: ^Module.load node:internal/modules/cjs/loader:963:33
+      4   23.5%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+     14    1.5%    LazyCompile: ~SecureContext node:_tls_common:75:23
+      7   50.0%      LazyCompile: ~createSecureContext node:_tls_common:99:29
+      7  100.0%        LazyCompile: ~connect node:_tls_wrap:1599:35
+      7  100.0%          LazyCompile: ~makeConnection /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:256:24
+      7  100.0%            LazyCompile: ~connect /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:30:17
+      7   50.0%      Function: ^createSecureContext node:_tls_common:99:29
+      7  100.0%        Function: ^connect node:_tls_wrap:1599:35
+      6   85.7%          Function: ^makeConnection /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:256:24
+      6  100.0%            Function: ^connect /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:30:17
+      1   14.3%          LazyCompile: ~makeConnection /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:256:24
+      1  100.0%            Function: ^connect /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:30:17
+     12    1.3%    LazyCompile: ~TLSSocket.getPeerCertificate node:_tls_wrap:986:50
+     12  100.0%      LazyCompile: ~onConnectSecure node:_tls_wrap:1518:25
+     12  100.0%        Function: ^emit node:events:475:44
+     12  100.0%          LazyCompile: ~TLSSocket._finishInit node:_tls_wrap:920:43
+     12  100.0%            LazyCompile: ~ssl.onhandshakedone node:_tls_wrap:725:27
+     12    1.3%    Function: ^openSync node:fs:577:18
+     12  100.0%      Function: ^readFileSync node:fs:451:22
+     12  100.0%        Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+     12  100.0%          Function: ^Module.load node:internal/modules/cjs/loader:963:33
+     12  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+     12    1.3%    Function: ^deserializeObject /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/deserializer.js:65:27
+      6   50.0%      Function: ^deserialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/deserializer.js:36:21
+      6  100.0%        Function: ^deserialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/bson.js:161:21
+      6  100.0%          Function: ^parse /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/commands.js:426:10
+      6  100.0%            Function: ^onMessage /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connection.js:156:14
+      5   41.7%      Function: ^deserializeObject /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/deserializer.js:65:27
+      2   40.0%        Function: ^deserializeObject /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/deserializer.js:65:27
+      2  100.0%          Function: ^deserialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/deserializer.js:36:21
+      2  100.0%            Function: ^deserialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/bson.js:161:21
+      2   40.0%        Function: ^deserialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/deserializer.js:36:21
+      2  100.0%          Function: ^deserialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/bson.js:161:21
+      2  100.0%            Function: ^parse /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/commands.js:426:10
+      1   20.0%        LazyCompile: ~deserialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/deserializer.js:36:21
+      1  100.0%          LazyCompile: ~deserialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/bson.js:161:21
+      1  100.0%            LazyCompile: ~parse /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/commands.js:222:10
+      1    8.3%      LazyCompile: ~deserialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/deserializer.js:36:21
+      1  100.0%        LazyCompile: ~deserialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/bson.js:161:21
+      1  100.0%          LazyCompile: ~parse /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/commands.js:426:10
+      1  100.0%            LazyCompile: ~onMessage /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connection.js:156:14
+     10    1.1%    Function: ^handleWriteReq node:internal/stream_base_commons:45:24
+     10  100.0%      Function: ^writeGeneric node:internal/stream_base_commons:147:22
+     10  100.0%        Function: ^Socket._writeGeneric node:net:797:42
+     10  100.0%          Function: ^Socket._write node:net:834:35
+     10  100.0%            Function: ^writeOrBuffer node:internal/streams/writable:366:23
+
+    374   20.0%  T _posix_spawnattr_init
+
+    217   11.6%  T node::contextify::ContextifyContext::CompileFunction(v8::FunctionCallbackInfo<v8::Value> const&)
+    213   98.2%    Function: ^compileFunction node:vm:308:25
+    212   99.5%      Function: ^wrapSafe node:internal/modules/cjs/loader:1011:18
+    212  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1053:37
+    202   95.3%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+    202  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:963:33
+     10    4.7%          LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1108:37
+     10  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:963:33
+      4    1.8%    LazyCompile: ~compileFunction node:vm:308:25
+      4  100.0%      LazyCompile: ~wrapSafe node:internal/modules/cjs/loader:1011:18
+      4  100.0%        LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1053:37
+      4  100.0%          LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1108:37
+      4  100.0%            LazyCompile: ~Module.load node:internal/modules/cjs/loader:963:33
+
+     44    2.4%  T _voucher_mach_msg_adopt
+      6   13.6%    LazyCompile: *compileFunction node:vm:308:25
+      6  100.0%      Function: ^wrapSafe node:internal/modules/cjs/loader:1011:18
+      6  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1053:37
+      6  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+      6  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:963:33
+      2    4.5%    Function: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/connect-mongo/build/main/lib/MongoStore.js:1:1
+      2  100.0%      Function: ^Module._compile node:internal/modules/cjs/loader:1053:37
+      2  100.0%        Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+      2  100.0%          Function: ^Module.load node:internal/modules/cjs/loader:963:33
+      2  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1    2.3%    LazyCompile: ~updateRsFromPrimary /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sdam/topology_description.js:257:29
+      1  100.0%      Function: ^update /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sdam/topology_description.js:131:11
+      1  100.0%        Function: ^serverUpdateHandler /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sdam/topology.js:321:24
+      1  100.0%          Function: ^<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sdam/topology.js:481:53
+      1  100.0%            Function: ^emit node:events:475:44
+      1    2.3%    LazyCompile: ~serializeString /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/serializer.js:19:25
+      1  100.0%      LazyCompile: ~serializeInto /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/serializer.js:553:23
+      1  100.0%        LazyCompile: ~serializeObject /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/serializer.js:260:25
+      1  100.0%          LazyCompile: ~serializeInto /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/serializer.js:553:23
+      1  100.0%            LazyCompile: ~serialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/bson.js:110:19
+      1    2.3%    LazyCompile: ~serializeBinary /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/serializer.js:462:25
+      1  100.0%      Function: ^serializeInto /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/serializer.js:553:23
+      1  100.0%        Function: ^serializeObject /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/serializer.js:260:25
+      1  100.0%          Function: ^serializeInto /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/serializer.js:553:23
+      1  100.0%            Function: ^serializeObject /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/serializer.js:260:25
+      1    2.3%    LazyCompile: ~removeAllListeners node:events:749:32
+      1  100.0%      Function: ^Readable.removeAllListeners node:internal/streams/readable:945:49
+      1  100.0%        Function: ^_dump node:_http_incoming:367:49
+      1  100.0%          Function: ^resOnFinish node:_http_server:791:21
+      1  100.0%            Function: ^emit node:events:475:44
+      1    2.3%    LazyCompile: ~processIncomingData /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/message_stream.js:84:29
+      1  100.0%      LazyCompile: ~_write /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/message_stream.js:31:11
+      1  100.0%        LazyCompile: ~writeOrBuffer node:internal/streams/writable:366:23
+      1  100.0%          LazyCompile: ~_write node:internal/streams/writable:284:16
+      1  100.0%            LazyCompile: ~Writable.write node:internal/streams/writable:334:36
+      1    2.3%    LazyCompile: ~preamble /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:208:30
+      1  100.0%      Function: ^compile /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%        LazyCompile: ~compileInput /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1  100.0%          LazyCompile: ~ret /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1  100.0%            LazyCompile: ~ExpressHandlebars._renderTemplate /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:321:60
+      1    2.3%    LazyCompile: ~passwordDigest /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/auth/scram.js:182:24
+      1  100.0%      LazyCompile: ~continueScramConversation /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/auth/scram.js:93:35
+      1  100.0%        LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/auth/scram.js:85:80
+      1  100.0%          LazyCompile: ~onMessage /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connection.js:156:14
+      1  100.0%            LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connection.js:60:44
+      1    2.3%    LazyCompile: ~parse /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/commands.js:222:10
+      1  100.0%      Function: ^onMessage /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connection.js:156:14
+      1  100.0%        Function: ^<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connection.js:60:44
+      1  100.0%          Function: ^emit node:events:475:44
+      1  100.0%            Function: ^processIncomingData /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/message_stream.js:84:29
+      1    2.3%    LazyCompile: ~onMessage /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connection.js:156:14
+      1  100.0%      Function: ^<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connection.js:60:44
+      1  100.0%        Function: ^emit node:events:475:44
+      1  100.0%          LazyCompile: ~processIncomingData /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/message_stream.js:84:29
+      1  100.0%            Function: ^_write /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/message_stream.js:31:11
+      1    2.3%    LazyCompile: ~get serverSession /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sessions.js:86:22
+      1  100.0%      LazyCompile: ~applySession /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sessions.js:657:22
+      1  100.0%        LazyCompile: ~command /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connection.js:251:12
+      1  100.0%          LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sdam/server.js:197:42
+      1  100.0%            LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connection_pool.js:300:23
+      1    2.3%    LazyCompile: ~exports.find /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/@mapbox/node-pre-gyp/lib/pre-binding.js:17:24
+      1  100.0%      Function: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bcrypt/bcrypt.js:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1053:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:963:33
+      1    2.3%    LazyCompile: ~exports.createImpl /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/URLSearchParams.js:55:22
+      1  100.0%      LazyCompile: ~URLImpl /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/URL-impl.js:7:14
+      1  100.0%        LazyCompile: ~exports.setup /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/URL.js:49:17
+      1  100.0%          LazyCompile: ~URL /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/URL.js:90:16
+      1  100.0%            LazyCompile: ~URLWithoutHost /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb-connection-string-url/lib/index.js:74:1
+      1    2.3%    LazyCompile: ~equals /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sdam/server_description.js:95:11
+      1  100.0%      LazyCompile: ~serverUpdateHandler /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sdam/topology.js:321:24
+      1  100.0%        Function: ^<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sdam/topology.js:481:53
+      1  100.0%          Function: ^emit node:events:475:44
+      1  100.0%            Function: ^<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sdam/server.js:61:55
+      1    2.3%    LazyCompile: ~end node:_http_outgoing:833:45
+      1  100.0%      LazyCompile: ~end /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-session/index.js:250:27
+      1  100.0%        LazyCompile: ~send /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/response.js:111:25
+      1  100.0%          LazyCompile: ~done /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/response.js:1033:27
+      1  100.0%            LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1    2.3%    LazyCompile: ~deserializeObject /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/deserializer.js:65:27
+      1  100.0%      LazyCompile: ~deserializeObject /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/deserializer.js:65:27
+      1  100.0%        LazyCompile: ~deserialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/deserializer.js:36:21
+      1  100.0%          LazyCompile: ~deserialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/bson.js:161:21
+      1  100.0%            LazyCompile: ~parse /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/commands.js:222:10
+      1    2.3%    LazyCompile: ~createFunctionContext /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:216:56
+      1  100.0%      LazyCompile: ~compile /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%        LazyCompile: ~compileChildren /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:805:44
+      1  100.0%          LazyCompile: ~compile /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%            LazyCompile: ~compileInput /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1    2.3%    LazyCompile: ~connect /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sdam/topology.js:155:12
+      1  100.0%      LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/mongo_client.js:136:49
+      1  100.0%        LazyCompile: ~<anonymous> node:internal/util:346:24
+      1  100.0%          T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1  100.0%            LazyCompile: ~fn node:internal/util:345:14
+      1    2.3%    LazyCompile: ~_ensureIndexes /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/model.js:1805:24
+      1  100.0%      LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/model.js:1765:52
+      1  100.0%        LazyCompile: ~promiseOrCallback /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/helpers/promiseOrCallback.js:8:44
+      1  100.0%          LazyCompile: ~Mongoose._promiseOrCallback /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/index.js:1264:49
+      1  100.0%            LazyCompile: ~ensureIndexes /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/model.js:1755:45
+      1    2.3%    LazyCompile: ~TLSSocket._wrapHandle node:_tls_wrap:596:43
+      1  100.0%      LazyCompile: ~TLSSocket node:_tls_wrap:464:19
+      1  100.0%        Function: ^connect node:_tls_wrap:1599:35
+      1  100.0%          LazyCompile: ~makeConnection /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:256:24
+      1  100.0%            Function: ^connect /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:30:17
+      1    2.3%    LazyCompile: ~Server /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sdam/server.js:29:16
+      1  100.0%      LazyCompile: ~createAndConnectServer /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sdam/topology.js:475:32
+      1  100.0%        LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sdam/topology.js:174:57
+      1  100.0%          T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1  100.0%            LazyCompile: ~connect /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sdam/topology.js:155:12
+      1    2.3%    LazyCompile: ~Long.greaterThan /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/long.js:469:43
+      1  100.0%      LazyCompile: ~_advanceClusterTime /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sdam/common.js:45:29
+      1  100.0%        LazyCompile: ~serverUpdateHandler /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sdam/topology.js:321:24
+      1  100.0%          Function: ^<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/sdam/topology.js:481:53
+      1  100.0%            Function: ^emit node:events:475:44
+      1    2.3%    LazyCompile: ~<anonymous> node:path:1082:10
+      1  100.0%      Function: ^resolve node:path:1091:10
+      1  100.0%        Function: ^relative node:path:1190:11
+      1  100.0%          LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%            Function: ^step /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1    2.3%    LazyCompile: ~<anonymous> node:net:1081:61
+      1  100.0%      Function: ^defaultTriggerAsyncIdScope node:internal/async_hooks:454:36
+      1  100.0%        LazyCompile: ~lookupAndConnect node:net:1025:26
+      1  100.0%          LazyCompile: ~Socket.connect node:net:967:36
+      1  100.0%            LazyCompile: ~connect node:_tls_wrap:1599:35
+      1    2.3%    LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/yargs/build/index.cjs:1:47750
+      1  100.0%      T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1  100.0%        LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/yargs/build/index.cjs:1:47718
+      1  100.0%          LazyCompile: ~boolean /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/yargs/build/index.cjs:1:30346
+      1  100.0%            LazyCompile: ~addHelpOpt /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/yargs/build/index.cjs:1:29439
+      1    2.3%    LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/operations/operation.js:28:51
+      1  100.0%      LazyCompile: ~<anonymous> node:internal/util:346:24
+      1  100.0%        T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1  100.0%          LazyCompile: ~fn node:internal/util:345:14
+      1  100.0%            LazyCompile: ~executeOperationAsync /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/operations/execute_operation.js:15:37
+      1    2.3%    Function: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/@aws-sdk/middleware-retry/node_modules/uuid/dist/v4.js:1:1
+      1  100.0%      Function: ^Module._compile node:internal/modules/cjs/loader:1053:37
+      1  100.0%        Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+      1  100.0%          Function: ^Module.load node:internal/modules/cjs/loader:963:33
+      1  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1    2.3%    Function: ^<anonymous> node:internal/validators:236:42
+      1  100.0%      Function: ^compileFunction node:vm:308:25
+      1  100.0%        Function: ^wrapSafe node:internal/modules/cjs/loader:1011:18
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1053:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+
+     25    1.3%  /usr/lib/system/libsystem_c.dylib
+      8   32.0%    LazyCompile: *compileFunction node:vm:308:25
+      8  100.0%      Function: ^wrapSafe node:internal/modules/cjs/loader:1011:18
+      8  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1053:37
+      8  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+      6   75.0%            Function: ^Module.load node:internal/modules/cjs/loader:963:33
+      2   25.0%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+      2    8.0%    LazyCompile: ~value node:internal/console/constructor:321:20
+      2  100.0%      LazyCompile: ~log node:internal/console/constructor:359:6
+      2  100.0%        T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      2  100.0%          LazyCompile: ~init file:///Users/rafaellima/Documents/Backend/Coder%20House/desafios/entregable14/src/db/connections/mongoseconnection.js:4:14
+      2  100.0%            LazyCompile: ~getSelectedDaos file:///Users/rafaellima/Documents/Backend/Coder%20House/desafios/entregable14/src/dao/index.js:9:25
+      1    4.0%    T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1  100.0%      LazyCompile: ~finalizeResolution node:internal/modules/esm/resolve:372:28
+      1  100.0%        LazyCompile: ~moduleResolve node:internal/modules/esm/resolve:942:23
+      1  100.0%          LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:1083:30
+      1  100.0%            LazyCompile: ~resolve node:internal/modules/esm/loader:580:16
+      1    4.0%    LazyCompile: ~readFile /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/graceful-fs/graceful-fs.js:111:21
+      1  100.0%      Function: ^<anonymous> node:internal/util:346:24
+      1  100.0%        T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1  100.0%          Function: ^fn node:internal/util:345:14
+      1  100.0%            LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:368:47
+      1    4.0%    LazyCompile: ~moduleProvider node:internal/modules/esm/loader:346:28
+      1  100.0%      T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1    4.0%    LazyCompile: ~module.exports /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/helpers/isMongooseObject.js:13:26
+      1  100.0%      LazyCompile: ~clone /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/helpers/clone.js:29:15
+      1  100.0%        LazyCompile: ~Schema.defaultOptions /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/schema.js:489:43
+      1  100.0%          LazyCompile: ~Schema /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/schema.js:96:16
+      1  100.0%            Script: ~<anonymous> file:///Users/rafaellima/Documents/Backend/Coder%20House/desafios/entregable14/src/models/model_carrito.js:1:1
+      1    4.0%    LazyCompile: ~exports.merge /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/joi/lib/messages.js:114:26
+      1  100.0%      LazyCompile: ~exports.type /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/joi/lib/extend.js:13:25
+      1  100.0%        LazyCompile: ~extend /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/joi/lib/base.js:447:11
+      1  100.0%          Function: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/joi/lib/types/any.js:1:1
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1053:37
+      1    4.0%    LazyCompile: ~deserialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/deserializer.js:36:21
+      1  100.0%      LazyCompile: ~deserialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/bson.js:161:21
+      1  100.0%        LazyCompile: ~parse /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/commands.js:222:10
+      1  100.0%          LazyCompile: ~onMessage /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connection.js:156:14
+      1  100.0%            LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connection.js:60:44
+      1    4.0%    LazyCompile: ~concat node:buffer:538:32
+      1  100.0%      LazyCompile: ~writeCommand /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/message_stream.js:40:17
+      1  100.0%        LazyCompile: ~write /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connection.js:404:15
+      1  100.0%          LazyCompile: ~command /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connection.js:251:12
+      1  100.0%            LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:78:43
+      1    4.0%    LazyCompile: ~Minimatch /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/minimatch/minimatch.js:163:15
+      1  100.0%      LazyCompile: ~setopts /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/glob/common.js:48:18
+      1  100.0%        LazyCompile: ~Glob /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/glob/glob.js:117:15
+      1  100.0%          LazyCompile: ~glob /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/glob/glob.js:62:15
+      1  100.0%            Function: ^<anonymous> node:internal/util:346:24
+      1    4.0%    LazyCompile: ~EventEmitter node:events:208:22
+      1  100.0%      LazyCompile: ~MixedEventEmitter node:internal/event_target:964:16
+      1  100.0%        LazyCompile: ~FileHandle node:internal/fs/promises:129:14
+      1  100.0%          LazyCompile: ~open node:internal/fs/promises:502:20
+      1  100.0%            T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1    4.0%    LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:22
+      1  100.0%      T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1  100.0%        LazyCompile: ~promiseOrCallback /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/helpers/promiseOrCallback.js:8:44
+      1  100.0%          LazyCompile: ~Mongoose._promiseOrCallback /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/index.js:1264:49
+      1  100.0%            LazyCompile: ~Mongoose.connect /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/index.js:407:38
+      1    4.0%    Function: ~<anonymous> node:internal/fs/rimraf:1:1
+      1  100.0%      LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1  100.0%          Function: ~<anonymous> node:internal/fs/promises:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    4.0%    Function: ^onStreamRead node:internal/stream_base_commons:167:22
+      1    4.0%    Function: ^normalizeEncoding node:internal/util:160:27
+      1  100.0%      LazyCompile: ~validateEncoding node:internal/validators:199:26
+      1  100.0%        LazyCompile: ~update node:internal/crypto/hash:95:40
+      1  100.0%          LazyCompile: ~HMAC /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/auth/scram.js:225:14
+      1  100.0%            LazyCompile: ~continueScramConversation /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/auth/scram.js:93:35
+
+     22    1.2%  T _kdebug_trace
+      8   36.4%    LazyCompile: *compileFunction node:vm:308:25
+      8  100.0%      Function: ^wrapSafe node:internal/modules/cjs/loader:1011:18
+      8  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1053:37
+      8  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+      6   75.0%            Function: ^Module.load node:internal/modules/cjs/loader:963:33
+      2   25.0%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+      2    9.1%    LazyCompile: ~toRealPath node:internal/modules/cjs/loader:393:20
+      2  100.0%      LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      2  100.0%        LazyCompile: ~resolveMainPath node:internal/modules/run_main:15:25
+      2  100.0%          LazyCompile: ~executeUserEntryPoint node:internal/modules/run_main:70:31
+      2  100.0%            Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    4.5%    LazyCompile: ~yargsParser.detailed /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/yargs-parser/build/index.cjs:1043:33
+      1  100.0%      LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/yargs/build/index.cjs:1:56853
+      1  100.0%        LazyCompile: ~parse /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/yargs/build/index.cjs:1:39721
+      1  100.0%          LazyCompile: ~get /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/yargs/build/index.cjs:1:61383
+      1  100.0%            Script: ~<anonymous> file:///Users/rafaellima/Documents/Backend/Coder%20House/desafios/entregable14/src/config/index.js:1:1
+      1    4.5%    LazyCompile: ~patchProcessObject node:internal/bootstrap/pre_execution:99:28
+      1  100.0%      LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:27:36
+      1  100.0%        Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    4.5%    LazyCompile: ~onEofChunk node:internal/streams/readable:556:20
+      1  100.0%      Function: ^readableAddChunk node:internal/streams/readable:242:26
+      1  100.0%        Function: ^Readable.push node:internal/streams/readable:233:35
+      1  100.0%          LazyCompile: ~parserOnMessageComplete node:_http_common:147:33
+      1    4.5%    LazyCompile: ~listeners node:events:817:54
+      1  100.0%      LazyCompile: ~attach /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/engine.io/build/server.js:465:11
+      1  100.0%        LazyCompile: ~attach /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/engine.io/build/engine.io.js:51:16
+      1  100.0%          LazyCompile: ~initEngine /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/socket.io/dist/index.js:268:15
+      1  100.0%            LazyCompile: ~attach /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/socket.io/dist/index.js:187:11
+      1    4.5%    LazyCompile: ~isPathPercentEncode /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/percent-encoding.js:69:29
+      1  100.0%      LazyCompile: ~isUserinfoPercentEncode /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/percent-encoding.js:76:33
+      1  100.0%        LazyCompile: ~utf8PercentEncodeCodePointInternal /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/percent-encoding.js:97:44
+      1  100.0%          LazyCompile: ~utf8PercentEncodeCodePoint /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/percent-encoding.js:112:36
+      1  100.0%            LazyCompile: ~parseAuthority /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/url-state-machine.js:731:71
+      1    4.5%    LazyCompile: ~get href node:internal/url:752:11
+      1  100.0%      LazyCompile: ~<anonymous> node:internal/modules/run_main:51:29
+      1  100.0%        LazyCompile: ~loadESM node:internal/process/esm_loader:82:41
+      1  100.0%          T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1    4.5%    LazyCompile: ~compile /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/helpers/document/compile.js:36:17
+      1  100.0%      LazyCompile: ~Document.$__setSchema /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/document.js:3466:43
+      1  100.0%        LazyCompile: ~_createConstructor /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/schema/documentarray.js:129:28
+      1  100.0%          LazyCompile: ~DocumentArrayPath /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/schema/documentarray.js:38:27
+      1  100.0%            LazyCompile: ~Schema.interpretAsType /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/schema.js:1163:44
+      1    4.5%    LazyCompile: ~Long.compare /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/long.js:291:39
+      1  100.0%      LazyCompile: ~Long.comp /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/long.js:311:36
+      1  100.0%        LazyCompile: ~Long.lessThanOrEqual /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/long.js:517:47
+      1  100.0%          LazyCompile: ~deserializeObject /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/deserializer.js:65:27
+      1  100.0%            LazyCompile: ~deserializeObject /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/deserializer.js:65:27
+      1    4.5%    LazyCompile: ~Db /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/db.js:84:16
+      1  100.0%      LazyCompile: ~db /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/mongo_client.js:214:7
+      1  100.0%        LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/connect-mongo/build/main/lib/MongoStore.js:124:42
+      1  100.0%          T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1  100.0%            Function: ^processTicksAndRejections node:internal/process/task_queues:68:35
+      1    4.5%    LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/utils.js:348:57
+      1  100.0%      T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1  100.0%        Function: ^processTicksAndRejections node:internal/process/task_queues:68:35
+      1    4.5%    LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:20:46
+      1  100.0%      T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1  100.0%        LazyCompile: ~__awaiter /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:18:54
+      1  100.0%          LazyCompile: ~ExpressHandlebars._getFile /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:364:53
+      1  100.0%            LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-handlebars/dist/express-handlebars.js:167:47
+      1    4.5%    Function: ~<anonymous> node:internal/fs/promises:1:1
+      1  100.0%      LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1  100.0%          Function: ~<anonymous> node:internal/modules/esm/get_source:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+
+     22    1.2%  /usr/lib/system/libsystem_malloc.dylib
+      2    9.1%    LazyCompile: *compileFunction node:vm:308:25
+      2  100.0%      Function: ^wrapSafe node:internal/modules/cjs/loader:1011:18
+      2  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1053:37
+      2  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+      2  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:963:33
+      1    4.5%    T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1  100.0%      LazyCompile: *readPackageScope node:internal/modules/cjs/loader:321:26
+      1  100.0%        Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+      1  100.0%          Function: ^Module.load node:internal/modules/cjs/loader:963:33
+      1  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1    4.5%    LazyCompile: ~module.exports /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/helpers/isMongooseObject.js:13:26
+      1  100.0%      LazyCompile: ~clone /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/helpers/clone.js:29:15
+      1  100.0%        LazyCompile: ~cloneArray /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/helpers/clone.js:159:20
+      1  100.0%          LazyCompile: ~clone /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/helpers/clone.js:29:15
+      1  100.0%            LazyCompile: ~Schema.path /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongoose/lib/schema.js:895:33
+      1    4.5%    LazyCompile: ~isUint8Array /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/utils.js:60:22
+      1  100.0%      LazyCompile: ~serializeInto /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/serializer.js:553:23
+      1  100.0%        LazyCompile: ~serialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/bson.js:110:19
+      1  100.0%          LazyCompile: ~toBin /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/commands.js:82:10
+      1  100.0%            LazyCompile: ~writeCommand /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/message_stream.js:40:17
+      1    4.5%    LazyCompile: ~_storeHeader node:_http_outgoing:374:22
+      1  100.0%      LazyCompile: ~writeHead node:_http_server:268:19
+      1  100.0%        Function: ^writeHead /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/on-headers/index.js:28:29
+      1  100.0%          Function: ^_implicitHeader node:_http_server:263:68
+      1  100.0%            LazyCompile: ~write_ node:_http_outgoing:730:16
+      1    4.5%    Function: ^store.generate /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-session/index.js:158:28
+      1  100.0%      Function: ^generate /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-session/index.js:363:22
+      1  100.0%        Function: ^session /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express-session/index.js:179:26
+      1  100.0%          Function: ^handle /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%            Function: ^trim_prefix /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/router/index.js:293:23
+      1    4.5%    Function: ^getTimestamp file:///Users/rafaellima/Documents/Backend/Coder%20House/desafios/entregable14/src/utils/date-utils.js:1:22
+      1  100.0%      Function: ^info_log file:///Users/rafaellima/Documents/Backend/Coder%20House/desafios/entregable14/src/utils/logger-utils.js:32:18
+      1  100.0%        Function: ^verifyLogin file:///Users/rafaellima/Documents/Backend/Coder%20House/desafios/entregable14/src/middlewares/verifyLogin.js:3:21
+      1  100.0%          Function: ^handle /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%            Function: ^next /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/router/route.js:116:16
+      1    4.5%    Function: ^deserializeObject /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/deserializer.js:65:27
+      1  100.0%      Function: ^deserialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/parser/deserializer.js:36:21
+      1  100.0%        Function: ^deserialize /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bson/lib/bson.js:161:21
+      1  100.0%          Function: ^parse /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/commands.js:426:10
+      1  100.0%            Function: ^onMessage /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connection.js:156:14
+
+     20    1.1%  UNKNOWN
+      7   35.0%    LazyCompile: *compileFunction node:vm:308:25
+      7  100.0%      Function: ^wrapSafe node:internal/modules/cjs/loader:1011:18
+      7  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1053:37
+      7  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+      5   71.4%            Function: ^Module.load node:internal/modules/cjs/loader:963:33
+      2   28.6%            LazyCompile: *Module._load node:internal/modules/cjs/loader:757:24
+      1    5.0%    LazyCompile: ~value node:internal/console/constructor:321:20
+      1  100.0%      LazyCompile: ~log node:internal/console/constructor:359:6
+      1  100.0%        T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1  100.0%          LazyCompile: ~init file:///Users/rafaellima/Documents/Backend/Coder%20House/desafios/entregable14/src/db/connections/mongoseconnection.js:4:14
+      1  100.0%            LazyCompile: ~getSelectedDaos file:///Users/rafaellima/Documents/Backend/Coder%20House/desafios/entregable14/src/dao/index.js:9:25
+      1    5.0%    LazyCompile: ~validate_config /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/@mapbox/node-pre-gyp/lib/util/versioning.js:195:25
+      1  100.0%      LazyCompile: ~exports.find /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/@mapbox/node-pre-gyp/lib/pre-binding.js:17:24
+      1  100.0%        Function: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/bcrypt/bcrypt.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1053:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1108:37
+      1    5.0%    LazyCompile: ~prepare /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/auth/scram.js:16:12
+      1  100.0%      LazyCompile: ~prepareHandshakeDocument /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:151:34
+      1  100.0%        LazyCompile: ~performInitialHandshake /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:62:33
+      1  100.0%          LazyCompile: ~<anonymous> /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:31:63
+      1  100.0%            LazyCompile: ~callback /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/mongodb/lib/cmap/connect.js:269:31
+      1    5.0%    LazyCompile: ~get ReadStream node:fs:3002:17
+      1  100.0%      T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1  100.0%        Function: ^getOwn node:internal/bootstrap/loaders:180:16
+      1  100.0%          Function: ^syncExports node:internal/bootstrap/loaders:287:14
+      1  100.0%            LazyCompile: ~<anonymous> node:internal/bootstrap/loaders:273:15
+      1    5.0%    LazyCompile: ~commonjsStrategy node:internal/modules/esm/translators:148:60
+      1  100.0%      T node::fs::FSReqAfterScope::FSReqAfterScope(node::fs::FSReqBase*, uv_fs_s*)
+      1    5.0%    LazyCompile: ~_write /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/winston-transport/index.js:69:51
+      1  100.0%      LazyCompile: ~doWrite /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/readable-stream/lib/_stream_writable.js:404:17
+      1  100.0%        LazyCompile: ~writeOrBuffer /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/readable-stream/lib/_stream_writable.js:363:23
+      1  100.0%          LazyCompile: ~Writable.write /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/readable-stream/lib/_stream_writable.js:288:37
+      1  100.0%            LazyCompile: ~ondata /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/readable-stream/lib/_stream_readable.js:679:18
+      1    5.0%    LazyCompile: ~Readable.read node:internal/streams/readable:402:35
+      1  100.0%      LazyCompile: ~flow node:internal/streams/readable:1031:14
+      1  100.0%        LazyCompile: ~resume_ node:internal/streams/readable:1007:17
+      1  100.0%          Function: ^processTicksAndRejections node:internal/process/task_queues:68:35
+      1    5.0%    Function: ~<anonymous> node:internal/fs/rimraf:1:1
+      1  100.0%      LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1  100.0%          Function: ~<anonymous> node:internal/fs/promises:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    5.0%    Function: ^handleErrorFromBinding node:internal/fs/utils:341:32
+      1  100.0%      Function: ^statSync node:fs:1544:18
+      1  100.0%        Function: ^tryStat /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/view.js:174:17
+      1  100.0%          LazyCompile: ~resolve /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/view.js:146:42
+      1  100.0%            Function: ^lookup /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/view.js:104:40
+      1    5.0%    Function: ^getTimestamp file:///Users/rafaellima/Documents/Backend/Coder%20House/desafios/entregable14/src/utils/date-utils.js:1:22
+      1  100.0%      Function: ^info_log file:///Users/rafaellima/Documents/Backend/Coder%20House/desafios/entregable14/src/utils/logger-utils.js:32:18
+      1  100.0%        Function: ^verifyLogin file:///Users/rafaellima/Documents/Backend/Coder%20House/desafios/entregable14/src/middlewares/verifyLogin.js:3:21
+      1  100.0%          Function: ^handle /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%            Function: ^next /Users/rafaellima/Documents/Backend/Coder House/desafios/entregable14/node_modules/express/lib/router/route.js:116:16
+

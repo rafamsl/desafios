@@ -2,10 +2,10 @@ import { Router } from "express";
 const router = Router();
 import {fork} from "child_process";
 import { config } from "../../config/index.js";
-import { DATE_UTILS } from "../../utils/date-utils.js";
+import compression from "compression"
 
 
-router.get("", async (req,res)=>{
+router.get("", compression(),async (req,res)=>{
     const cant = req.query.cant || config.CHILD.RANDOM
     const child = fork("../src/controllers/child/index.js")
     child.send({key: "number", value : cant})

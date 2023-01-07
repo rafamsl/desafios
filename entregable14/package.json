@@ -12,8 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "artillery": "^2.0.0-27",
+    "autocannon": "^7.10.0",
     "bcrypt": "^5.1.0",
     "child_process": "^1.0.2",
+    "compression": "^1.7.4",
     "connect-flash": "^0.1.1",
     "connect-mongo": "^4.6.0",
     "cookie-parser": "^1.4.6",
@@ -35,6 +37,7 @@
     "pm2": "^5.2.2",
     "socket.io": "^4.5.4",
     "timeout-as-promise": "^1.0.0",
+    "winston": "^3.8.2",
     "yargs": "^17.6.2"
   },
   "devDependencies": {

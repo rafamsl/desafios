@@ -11,6 +11,7 @@ import flash from "connect-flash"
 import handlebars from "express-handlebars";
 import {PassportAuth} from "./middlewares/passport/index.js"
 import cluster from 'cluster';
+import { LOGGER_UTILS } from './utils/index.js';
 
 
 const app = express();
@@ -59,6 +60,11 @@ app.use("/api/productos",ProductoRouter)
 app.use("/api/auth",AuthRouter)
 app.use("",LoginRouter)
 app.use("/api/random",ChildRouter)
+app.get('*', (req, res) => {
+	const { url, method } = req
+	LOGGER_UTILS.warn_log(req.url, method, "Pagina no existente")
+	res.send(`Ruta ${method} ${url} no está implementada`)
+  })
 
 // WEBSOCKET
 
